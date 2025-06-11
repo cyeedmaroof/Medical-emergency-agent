@@ -1,0 +1,15 @@
+.env
+# Ignore large JSON files
+vectordata/vectordata
+kgstore/*.JSON
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+logs/
+.gradio
+.venv
