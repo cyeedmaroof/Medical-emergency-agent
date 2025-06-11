@@ -1,3 +1,0 @@
-SPGstorage/default__vector_store.json filter=lfs diff=lfs merge=lfs -text
-storage_with_embeddings_in_kg filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
