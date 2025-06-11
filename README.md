@@ -76,7 +76,13 @@ poetry run <command>
 
 ### Running the Jupyter Notebooks
 
-There are two main `.ipynb` files in the repository. You can run them directly by pressing `run all cell`
+There are two main notebooks in this project:
+
+1. **[Query with Call Transcripts Test](query_with_call_transcripts_test.ipynb)** 
+
+2. **[Stand Alone Queries](Stand_alone_queries.ipynb)**
+
+You can run them directly by pressing `run all cell`
 
 Then, open your browser and navigate to the `localhost:[port number]` to start interacting with the Medical Emergency Agent.
 
