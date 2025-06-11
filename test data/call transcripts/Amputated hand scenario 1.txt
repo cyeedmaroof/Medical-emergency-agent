@@ -1,0 +1,15 @@
+
+Dispatcher:	Emergency dispatch centre. Are you calling from 555-12345?
+Caller:	Yes hallo, I need help!
+Dispatcher:	You are now connected via a videolink and I can see what you are filming with your camera.
+Caller:	Can you see what I am filming? 
+Dispatcher:	Yes. Please tell me your emergency.
+Caller:	My daughter was working out in the garage and she has cut herself in her left arm. I think she was working with an angle grinder. She just came running inside the house screaming. I think her hand is completely cut off and it’s bleeding very much! She is covering what is rest of her arm with her other hand.
+Dispatcher:	Ok! Where are you calling from?
+Caller:	The address is 101 Main street in Stavanger.
+Dispatcher:	Ok. Good. I can see in the map where you are located. Are you together with your daughter now? Is she awake?
+Caller:	Yes she is here with me and she is awake. There is blood everywhere! 
+Dispatcher:	Can you please turn the camera towards the injury so that I can see it?
+Caller:	Ok. Can you see it now?
+Dispatcher: 	Yes. I understand what you mean. It seems that the hand is missing. We will send an ambulance to your address immediately. Is this the only injury she has sustained or are there more injuries?
+Caller: 	(Talking to his daughter. Do you have any more cuts?) No. It seems to be a single cut. She is really pale, and I think she is about to faint.

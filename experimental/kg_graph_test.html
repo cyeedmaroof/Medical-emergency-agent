@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 600px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "caller", "label": "caller", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "put phone on speaker", "label": "put phone on speaker", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "guidance", "label": "guidance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "encouragement", "label": "encouragement", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stay on the line", "label": "stay on the line", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fetch defibrillator alone", "label": "fetch defibrillator alone", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "CPR instructions", "label": "CPR instructions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "defibrillator", "label": "defibrillator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "person not severely injured", "label": "person not severely injured", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "unconscious adult", "label": "unconscious adult", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dead", "label": "dead", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "floor", "label": "floor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "immediate medical attention", "label": "immediate medical attention", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "normally", "label": "normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "someone else", "label": "someone else", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pasienter med sjokkbar rytme", "label": "pasienter med sjokkbar rytme", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "instructions", "label": "instructions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tidlig defibrillering", "label": "tidlig defibrillering", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "livredder", "label": "livredder", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reviving the person", "label": "reviving the person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "take hands off", "label": "take hands off", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "blocked airway", "label": "blocked airway", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "open mouth", "label": "open mouth", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "children / adolescents", "label": "children / adolescents", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "situation", "label": "situation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "immediate care", "label": "immediate care", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pregnant person", "label": "pregnant person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pillow under right hip", "label": "pillow under right hip", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "high voltage patients", "label": "high voltage patients", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "contact with power source", "label": "contact with power source", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rescue breaths", "label": "rescue breaths", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tilt the head back", "label": "tilt the head back", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "one hand on the forehead", "label": "one hand on the forehead", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lift the chin up", "label": "lift the chin up", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "other hand", "label": "other hand", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "medics", "label": "medics", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "person", "label": "person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "emergency response", "label": "emergency response", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "CPR", "label": "CPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "good compressions", "label": "good compressions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lay the person", "label": "lay the person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "the floor", "label": "the floor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kneel beside the person", "label": "kneel beside the person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "the person\u0027s chest", "label": "the person\u0027s chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "place your hands", "label": "place your hands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "the middle of his / her chest", "label": "the middle of his / her chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "count aloud", "label": "count aloud", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rate", "label": "rate", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "push down hard", "label": "push down hard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chest compressions", "label": "chest compressions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "back", "label": "back", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kneel", "label": "kneel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "beside", "label": "beside", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hands", "label": "hands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chest", "label": "chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "breaths", "label": "breaths", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "elbows", "label": "elbows", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "straight", "label": "straight", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "push down", "label": "push down", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hard", "label": "hard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "count to 10", "label": "count to 10", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "start again", "label": "start again", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "1,2,3,4,5\u202628,29,30", "label": "1,2,3,4,5\u202628,29,30", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "scenario", "label": "scenario", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "drowning", "label": "drowning", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "breathing", "label": "breathing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hanging", "label": "hanging", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "overdose", "label": "overdose", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "giving breaths", "label": "giving breaths", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rescuer", "label": "rescuer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "middle of chest", "label": "middle of chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "AED", "label": "AED", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "guidance and encouragement", "label": "guidance and encouragement", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ved 30:2", "label": "ved 30:2", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "free airway", "label": "free airway", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "head", "label": "head", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "forehead", "label": "forehead", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chin", "label": "chin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mouth", "label": "mouth", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "remove object", "label": "remove object", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ventilate person", "label": "ventilate person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "systematic intensive treatment", "label": "systematic intensive treatment", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "return of spontaneous circulation", "label": "return of spontaneous circulation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "improved outcomes", "label": "improved outcomes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "survival", "label": "survival", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "identifying coronary ischemia", "label": "identifying coronary ischemia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "treatment options", "label": "treatment options", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "treatment of coronary ischemia", "label": "treatment of coronary ischemia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "coronary ischemia", "label": "coronary ischemia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "early warning", "label": "early warning", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "death", "label": "death", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "early cardiopulmonary resuscitation", "label": "early cardiopulmonary resuscitation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "early defibrillation", "label": "early defibrillation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "innringer", "label": "innringer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "unders\u00f8kelse av bevissthet", "label": "unders\u00f8kelse av bevissthet", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "alvorlig situasjon", "label": "alvorlig situasjon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "falt om, kollapset, besvimt", "label": "falt om, kollapset, besvimt", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "113", "label": "113", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hjertestans", "label": "hjertestans", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lvs", "label": "lvs", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "operasjonssentral", "label": "operasjonssentral", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pasienten", "label": "pasienten", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hlr", "label": "hlr", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "best mulig utf\u00f8relse", "label": "best mulig utf\u00f8relse", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "usikkerhet", "label": "usikkerhet", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "forsinket gjenkjennelse", "label": "forsinket gjenkjennelse", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "agonal pust", "label": "agonal pust", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "snorking, gisping, puster tungt", "label": "snorking, gisping, puster tungt", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "normal pust", "label": "normal pust", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ambulanse", "label": "ambulanse", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "veiledning", "label": "veiledning", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ambulanse er p\u00e5 vei", "label": "ambulanse er p\u00e5 vei", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pust", "label": "pust", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tidlig varsling", "label": "tidlig varsling", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "innringer erkjenner situasjonen", "label": "innringer erkjenner situasjonen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "direkte kontakt", "label": "direkte kontakt", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tidlig hlr", "label": "tidlig hlr", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lives", "label": "lives", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "many people", "label": "many people", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "perform tidlig hlr", "label": "perform tidlig hlr", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "innringere", "label": "innringere", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "speaker function", "label": "speaker function", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "brystkompresjoner", "label": "brystkompresjoner", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "straight arms", "label": "straight arms", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "patient on the floor", "label": "patient on the floor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "counting out loud", "label": "counting out loud", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "metronome", "label": "metronome", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "quality control questions", "label": "quality control questions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "body weight", "label": "body weight", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hard pressure", "label": "hard pressure", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "good quality of brystkompresjoner", "label": "good quality of brystkompresjoner", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "maintain rhythm of brystkompresjoner", "label": "maintain rhythm of brystkompresjoner", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "untrained individuals", "label": "untrained individuals", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "trained individuals", "label": "trained individuals", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "control questions", "label": "control questions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "short pauses", "label": "short pauses", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "airways are clear", "label": "airways are clear", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chest rises", "label": "chest rises", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sjokkbar rytme", "label": "sjokkbar rytme", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hente hjertestarteren", "label": "hente hjertestarteren", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pasienter med hjertestans", "label": "pasienter med hjertestans", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hjertestarter", "label": "hjertestarter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pasienter med mistenkt hjertestans", "label": "pasienter med mistenkt hjertestans", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hjertestarterregisteret", "label": "hjertestarterregisteret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "akutthjelper", "label": "akutthjelper", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tidlig respons", "label": "tidlig respons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "offentlig tilgjengelig hjertestarter", "label": "offentlig tilgjengelig hjertestarter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kvaliteten p\u00e5 hlr", "label": "kvaliteten p\u00e5 hlr", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "etter rosc", "label": "etter rosc", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hospital with ischemic heart disease treatment", "label": "hospital with ischemic heart disease treatment", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "patients", "label": "patients", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "unstable", "label": "unstable", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "anesthesiologist assistance", "label": "anesthesiologist assistance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "unstable patients", "label": "unstable patients", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "evaluated for transport", "label": "evaluated for transport", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "transport", "label": "transport", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stabilization", "label": "stabilization", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ischemic heart disease", "label": "ischemic heart disease", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hospital", "label": "hospital", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ischemic heart disease treatment", "label": "ischemic heart disease treatment", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hjerne", "label": "hjerne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "oksygen", "label": "oksygen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ventilasjon", "label": "ventilasjon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sirkulasjonen", "label": "sirkulasjonen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "munn-til-munn", "label": "munn-til-munn", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "brystkompresjon", "label": "brystkompresjon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ventrikkelflimmer", "label": "ventrikkelflimmer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "defibrillering", "label": "defibrillering", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "akutt hjertesykdom", "label": "akutt hjertesykdom", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "innbl\u00e5singer", "label": "innbl\u00e5singer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pasient", "label": "pasient", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "vann", "label": "vann", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "HLR", "label": "HLR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "patient confirmed dead", "label": "patient confirmed dead", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rigor mortis", "label": "rigor mortis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "no resuscitation attempts", "label": "no resuscitation attempts", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "doubt about observations", "label": "doubt about observations", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "guidance for caller", "label": "guidance for caller", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "own resources", "label": "own resources", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reassess situation", "label": "reassess situation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "04e9b931-3655-4138-ad59-ce381b9c9f75", "label": "04e9b931-3655-4138-ad59-ce381b9c9f75", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ab0cf38b-1802-4cb0-bb75-13b7b18f1908", "label": "ab0cf38b-1802-4cb0-bb75-13b7b18f1908", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "a59e051f-c55a-4fa0-8e52-9fbb08fc2c9d", "label": "a59e051f-c55a-4fa0-8e52-9fbb08fc2c9d", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "72df61fa-eb7a-40b1-8117-3427320ceea5", "label": "72df61fa-eb7a-40b1-8117-3427320ceea5", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "3e3e7331-0a40-458b-9269-9ce27aff950e", "label": "3e3e7331-0a40-458b-9269-9ce27aff950e", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "487dc39c-9cb6-43c3-b71c-e3c9341ca02d", "label": "487dc39c-9cb6-43c3-b71c-e3c9341ca02d", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "44e71e51-b435-4e5b-9c23-239feb6f129f", "label": "44e71e51-b435-4e5b-9c23-239feb6f129f", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ae25de8b-e2d1-4934-ac4f-f2fa455cf7d1", "label": "ae25de8b-e2d1-4934-ac4f-f2fa455cf7d1", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "2b1ddd73-0e1c-4e0a-abf5-cadb23a1c9cb", "label": "2b1ddd73-0e1c-4e0a-abf5-cadb23a1c9cb", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "1476685f-9671-4364-a7cd-b3993696f93e", "label": "1476685f-9671-4364-a7cd-b3993696f93e", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "333eefdd-3e00-43fd-999a-cf4bac487014", "label": "333eefdd-3e00-43fd-999a-cf4bac487014", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "8cab19e0-eb1c-4ab0-8393-fdea682dd659", "label": "8cab19e0-eb1c-4ab0-8393-fdea682dd659", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "b01b54bb-d4a9-4ba2-86d3-bc2f6e17927c", "label": "b01b54bb-d4a9-4ba2-86d3-bc2f6e17927c", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cdbd3a03-c22c-497a-a767-6a4e2f6c89a4", "label": "cdbd3a03-c22c-497a-a767-6a4e2f6c89a4", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "366eeef6-ada6-46ac-a54c-801e656dd0bf", "label": "366eeef6-ada6-46ac-a54c-801e656dd0bf", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bd125d32-8869-4e1d-84e0-aaa023cc3ee6", "label": "bd125d32-8869-4e1d-84e0-aaa023cc3ee6", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "aba7f59b-9a04-414a-9dd2-da5376794a95", "label": "aba7f59b-9a04-414a-9dd2-da5376794a95", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "d91f81b2-324f-4fbe-a2e6-8199a84a573a", "label": "d91f81b2-324f-4fbe-a2e6-8199a84a573a", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dc2a7d5b-d40b-42f5-9bb1-4cc670f53c81", "label": "dc2a7d5b-d40b-42f5-9bb1-4cc670f53c81", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "5f19da34-4c77-45ba-9894-3f5aba4954cc", "label": "5f19da34-4c77-45ba-9894-3f5aba4954cc", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "9caae198-4442-4938-8f4a-e539bf1d3286", "label": "9caae198-4442-4938-8f4a-e539bf1d3286", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "80806832-4bad-492b-882f-ad8631657fc7", "label": "80806832-4bad-492b-882f-ad8631657fc7", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "caller", "label": "CAN", "to": "put phone on speaker", "width": 1}, {"arrows": "to", "from": "caller", "label": "OFFERS", "to": "guidance", "width": 1}, {"arrows": "to", "from": "caller", "label": "PROVIDES", "to": "encouragement", "width": 1}, {"arrows": "to", "from": "caller", "label": "MUST", "to": "stay on the line", "width": 1}, {"arrows": "to", "from": "caller", "label": "SHOULD_NOT", "to": "fetch defibrillator alone", "width": 1}, {"arrows": "to", "from": "caller", "label": "RECEIVES", "to": "CPR instructions", "width": 1}, {"arrows": "to", "from": "caller", "label": "MUST_FETCH", "to": "defibrillator", "width": 1}, {"arrows": "to", "from": "CPR instructions", "label": "OFFERED_IF", "to": "person not severely injured", "width": 1}, {"arrows": "to", "from": "CPR instructions", "label": "REQUIRES", "to": "unconscious adult", "width": 1}, {"arrows": "to", "from": "unconscious adult", "label": "MAY_BE", "to": "dead", "width": 1}, {"arrows": "to", "from": "unconscious adult", "label": "POSITIONED_ON", "to": "floor", "width": 1}, {"arrows": "to", "from": "unconscious adult", "label": "REQUIRES", "to": "immediate medical attention", "width": 1}, {"arrows": "to", "from": "unconscious adult", "label": "NOT_BREATHING", "to": "normally", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "FETCHED_BY", "to": "someone else", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "REQUIRED_FOR", "to": "pasienter med sjokkbar rytme", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "INSTRUCTS", "to": "instructions", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "CAUSED_BY", "to": "tidlig defibrillering", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "PERFORMED_BY", "to": "livredder", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "USED_FOR", "to": "reviving the person", "width": 1}, {"arrows": "to", "from": "defibrillator", "label": "TELLS_TO", "to": "take hands off", "width": 1}, {"arrows": "to", "from": "blocked airway", "label": "INDICATES", "to": "open mouth", "width": 1}, {"arrows": "to", "from": "children / adolescents", "label": "PRESENT_IN", "to": "situation", "width": 1}, {"arrows": "to", "from": "situation", "label": "REQUIRES", "to": "immediate care", "width": 1}, {"arrows": "to", "from": "pregnant person", "label": "REQUIRES", "to": "pillow under right hip", "width": 1}, {"arrows": "to", "from": "high voltage patients", "label": "CONTRAINDICATED_FOR", "to": "contact with power source", "width": 1}, {"arrows": "to", "from": "rescue breaths", "label": "REQUIRES", "to": "tilt the head back", "width": 1}, {"arrows": "to", "from": "tilt the head back", "label": "USES", "to": "one hand on the forehead", "width": 1}, {"arrows": "to", "from": "tilt the head back", "label": "USES", "to": "lift the chin up", "width": 1}, {"arrows": "to", "from": "lift the chin up", "label": "REQUIRES", "to": "other hand", "width": 1}, {"arrows": "to", "from": "medics", "label": "TAKE_OVER", "to": "person", "width": 1}, {"arrows": "to", "from": "medics", "label": "TAKE_OVER", "to": "emergency response", "width": 1}, {"arrows": "to", "from": "medics", "label": "TAKES_OVER", "to": "CPR", "width": 1}, {"arrows": "to", "from": "medics", "label": "TAKE_OVER", "to": "good compressions", "width": 1}, {"arrows": "to", "from": "lay the person", "label": "POSITIONED_ON", "to": "the floor", "width": 1}, {"arrows": "to", "from": "kneel beside the person", "label": "REQUIRES", "to": "the person\u0027s chest", "width": 1}, {"arrows": "to", "from": "place your hands", "label": "POSITIONED_ON", "to": "the middle of his / her chest", "width": 1}, {"arrows": "to", "from": "count aloud", "label": "INDICATES", "to": "rate", "width": 1}, {"arrows": "to", "from": "count aloud", "label": "FOLLOWS", "to": "push down hard", "width": 1}, {"arrows": "to", "from": "person", "label": "WAKES_UP", "to": "medics", "width": 1}, {"arrows": "to", "from": "person", "label": "POSITIONED_ON", "to": "floor", "width": 1}, {"arrows": "to", "from": "person", "label": "RECEIVES", "to": "chest compressions", "width": 1}, {"arrows": "to", "from": "person", "label": "POSITIONED_ON", "to": "back", "width": 1}, {"arrows": "to", "from": "floor", "label": "POSITIONED_ON", "to": "unconscious adult", "width": 1}, {"arrows": "to", "from": "kneel", "label": "REQUIRES", "to": "beside", "width": 1}, {"arrows": "to", "from": "kneel", "label": "PERFORMED_BY", "to": "person", "width": 1}, {"arrows": "to", "from": "hands", "label": "POSITIONED_ON", "to": "chest", "width": 1}, {"arrows": "to", "from": "chest", "label": "RISES", "to": "breaths", "width": 1}, {"arrows": "to", "from": "chest", "label": "PUSHED_UNTIL", "to": "defibrillator", "width": 1}, {"arrows": "to", "from": "elbows", "label": "POSITIONED_ON", "to": "straight", "width": 1}, {"arrows": "to", "from": "push down", "label": "REQUIRES", "to": "hard", "width": 1}, {"arrows": "to", "from": "push down", "label": "FOLLOWS", "to": "count to 10", "width": 1}, {"arrows": "to", "from": "count to 10", "label": "FOLLOWS", "to": "start again", "width": 1}, {"arrows": "to", "from": "rate", "label": "MEASURED_BY", "to": "1,2,3,4,5\u202628,29,30", "width": 1}, {"arrows": "to", "from": "emergency response", "label": "FOLLOWS", "to": "scenario", "width": 1}, {"arrows": "to", "from": "drowning", "label": "RELATED_TO", "to": "breathing", "width": 1}, {"arrows": "to", "from": "breathing", "label": "AFFECTED_BY", "to": "drowning", "width": 1}, {"arrows": "to", "from": "breathing", "label": "AFFECTED_BY", "to": "hanging", "width": 1}, {"arrows": "to", "from": "breathing", "label": "AFFECTED_BY", "to": "overdose", "width": 1}, {"arrows": "to", "from": "overdose", "label": "RELATED_TO", "to": "breathing", "width": 1}, {"arrows": "to", "from": "hanging", "label": "RELATED_TO", "to": "breathing", "width": 1}, {"arrows": "to", "from": "giving breaths", "label": "PERFORMED_BY", "to": "rescuer", "width": 1}, {"arrows": "to", "from": "rescuer", "label": "COUNTS_ALOUD_WITH", "to": "unconscious adult", "width": 1}, {"arrows": "to", "from": "rescuer", "label": "PLACES_HANDS_IN", "to": "middle of chest", "width": 1}, {"arrows": "to", "from": "rescuer", "label": "KEEPS_ELBOWS_STRAIGHT", "to": "chest compressions", "width": 1}, {"arrows": "to", "from": "rescuer", "label": "STARTS", "to": "giving breaths", "width": 1}, {"arrows": "to", "from": "AED", "label": "INDICATES", "to": "emergency response", "width": 1}, {"arrows": "to", "from": "instructions", "label": "FOLLOWS", "to": "defibrillator", "width": 1}, {"arrows": "to", "from": "instructions", "label": "PROVIDES", "to": "guidance and encouragement", "width": 1}, {"arrows": "to", "from": "ved 30:2", "label": "HOW_TO_ESTABLISH", "to": "free airway", "width": 1}, {"arrows": "to", "from": "head", "label": "TILTED_BACK", "to": "forehead", "width": 1}, {"arrows": "to", "from": "chin", "label": "LIFTED_UP", "to": "other hand", "width": 1}, {"arrows": "to", "from": "mouth", "label": "OPENED_TO", "to": "remove object", "width": 1}, {"arrows": "to", "from": "ventilate person", "label": "NOT_POSSIBLE_FOR", "to": "unconscious adult", "width": 1}, {"arrows": "to", "from": "systematic intensive treatment", "label": "REQUIRES", "to": "return of spontaneous circulation", "width": 1}, {"arrows": "to", "from": "systematic intensive treatment", "label": "INDICATES", "to": "improved outcomes", "width": 1}, {"arrows": "to", "from": "return of spontaneous circulation", "label": "INDICATES", "to": "survival", "width": 1}, {"arrows": "to", "from": "identifying coronary ischemia", "label": "INDICATES", "to": "treatment options", "width": 1}, {"arrows": "to", "from": "identifying coronary ischemia", "label": "REQUIRES", "to": "systematic intensive treatment", "width": 1}, {"arrows": "to", "from": "treatment of coronary ischemia", "label": "TREATS", "to": "coronary ischemia", "width": 1}, {"arrows": "to", "from": "treatment of coronary ischemia", "label": "FOLLOWS", "to": "identifying coronary ischemia", "width": 1}, {"arrows": "to", "from": "early warning", "label": "PREVENTS", "to": "death", "width": 1}, {"arrows": "to", "from": "early cardiopulmonary resuscitation", "label": "PREVENTS", "to": "death", "width": 1}, {"arrows": "to", "from": "early defibrillation", "label": "PREVENTS", "to": "death", "width": 1}, {"arrows": "to", "from": "innringer", "label": "LEADS_THROUGH", "to": "unders\u00f8kelse av bevissthet", "width": 1}, {"arrows": "to", "from": "innringer", "label": "RECOGNIZES", "to": "alvorlig situasjon", "width": 1}, {"arrows": "to", "from": "innringer", "label": "REPORTS", "to": "falt om, kollapset, besvimt", "width": 1}, {"arrows": "to", "from": "innringer", "label": "CALLS", "to": "113", "width": 1}, {"arrows": "to", "from": "innringer", "label": "USES_TERMS", "to": "hjertestans", "width": 1}, {"arrows": "to", "from": "lvs", "label": "CONNECTS", "to": "operasjonssentral", "width": 1}, {"arrows": "to", "from": "operasjonssentral", "label": "CONTACTS", "to": "pasienten", "width": 1}, {"arrows": "to", "from": "hjertestans", "label": "TRIGGERS", "to": "hlr", "width": 1}, {"arrows": "to", "from": "hjertestans", "label": "PREVENTED_BY", "to": "tidlig defibrillering", "width": 1}, {"arrows": "to", "from": "hlr", "label": "REQUIRES", "to": "best mulig utf\u00f8relse", "width": 1}, {"arrows": "to", "from": "usikkerhet", "label": "CAUSES", "to": "forsinket gjenkjennelse", "width": 1}, {"arrows": "to", "from": "agonal pust", "label": "DESCRIBED_AS", "to": "snorking, gisping, puster tungt", "width": 1}, {"arrows": "to", "from": "agonal pust", "label": "DIFFERS_FROM", "to": "normal pust", "width": 1}, {"arrows": "to", "from": "ambulanse", "label": "IS_ON_THE_WAY", "to": "pasienten", "width": 1}, {"arrows": "to", "from": "ambulanse", "label": "RESPONSE_TO", "to": "hjertestans", "width": 1}, {"arrows": "to", "from": "veiledning", "label": "CONTINUES_WHILE", "to": "ambulanse er p\u00e5 vei", "width": 1}, {"arrows": "to", "from": "unders\u00f8kelse av bevissthet", "label": "INCLUDES", "to": "pust", "width": 1}, {"arrows": "to", "from": "tidlig varsling", "label": "DEPENDS_ON", "to": "innringer erkjenner situasjonen", "width": 1}, {"arrows": "to", "from": "tidlig varsling", "label": "REQUIRES", "to": "direkte kontakt", "width": 1}, {"arrows": "to", "from": "tidlig hlr", "label": "CAN_SAVE", "to": "lives", "width": 1}, {"arrows": "to", "from": "many people", "label": "ARE_UNSURE_HOW_TO", "to": "perform tidlig hlr", "width": 1}, {"arrows": "to", "from": "innringere", "label": "CAN_USE", "to": "speaker function", "width": 1}, {"arrows": "to", "from": "speaker function", "label": "PROVIDES", "to": "guidance and encouragement", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "REQUIRES", "to": "straight arms", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "REQUIRES", "to": "patient on the floor", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "REQUIRES", "to": "counting out loud", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "MEASURED_BY", "to": "metronome", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "REQUIRES", "to": "quality control questions", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "REQUIRES", "to": "body weight", "width": 1}, {"arrows": "to", "from": "brystkompresjoner", "label": "REQUIRES", "to": "hard pressure", "width": 1}, {"arrows": "to", "from": "quality control questions", "label": "ENSURES", "to": "good quality of brystkompresjoner", "width": 1}, {"arrows": "to", "from": "metronome", "label": "HELPS", "to": "maintain rhythm of brystkompresjoner", "width": 1}, {"arrows": "to", "from": "untrained individuals", "label": "SHOULD_BE_INSTRUCTED_IN", "to": "brystkompresjoner", "width": 1}, {"arrows": "to", "from": "trained individuals", "label": "MUST_BE_ASKED", "to": "control questions", "width": 1}, {"arrows": "to", "from": "control questions", "label": "ENSURES", "to": "short pauses", "width": 1}, {"arrows": "to", "from": "control questions", "label": "ENSURES", "to": "airways are clear", "width": 1}, {"arrows": "to", "from": "control questions", "label": "ENSURES", "to": "chest rises", "width": 1}, {"arrows": "to", "from": "tidlig defibrillering", "label": "INDICATES", "to": "sjokkbar rytme", "width": 1}, {"arrows": "to", "from": "sjokkbar rytme", "label": "REQUIRES", "to": "defibrillator", "width": 1}, {"arrows": "to", "from": "livredder", "label": "CAN", "to": "hente hjertestarteren", "width": 1}, {"arrows": "to", "from": "livredder", "label": "ASSISTS", "to": "pasienter med hjertestans", "width": 1}, {"arrows": "to", "from": "hjertestarter", "label": "USES", "to": "pasienter med mistenkt hjertestans", "width": 1}, {"arrows": "to", "from": "hjertestarter", "label": "LOCATED_IN", "to": "hjertestarterregisteret", "width": 1}, {"arrows": "to", "from": "hjertestarter", "label": "REQUIRES", "to": "defibrillator", "width": 1}, {"arrows": "to", "from": "akutthjelper", "label": "FOLLOWS", "to": "tidlig respons", "width": 1}, {"arrows": "to", "from": "tidlig respons", "label": "INDICATES", "to": "livredder", "width": 1}, {"arrows": "to", "from": "hjertestarterregisteret", "label": "POSITIONED_ON", "to": "offentlig tilgjengelig hjertestarter", "width": 1}, {"arrows": "to", "from": "kvaliteten p\u00e5 hlr", "label": "PREVENTS", "to": "hente hjertestarteren", "width": 1}, {"arrows": "to", "from": "etter rosc", "label": "FOLLOWS", "to": "unconscious adult", "width": 1}, {"arrows": "to", "from": "etter rosc", "label": "REQUIRES", "to": "hospital with ischemic heart disease treatment", "width": 1}, {"arrows": "to", "from": "patients", "label": "CAN_BE", "to": "unstable", "width": 1}, {"arrows": "to", "from": "anesthesiologist assistance", "label": "INDICATED_FOR", "to": "unstable patients", "width": 1}, {"arrows": "to", "from": "unstable patients", "label": "MUST_BE", "to": "evaluated for transport", "width": 1}, {"arrows": "to", "from": "transport", "label": "REQUIRED_FOR", "to": "stabilization", "width": 1}, {"arrows": "to", "from": "ischemic heart disease", "label": "TREATED_AT", "to": "hospital", "width": 1}, {"arrows": "to", "from": "hospital", "label": "PROVIDES", "to": "ischemic heart disease treatment", "width": 1}, {"arrows": "to", "from": "hjerne", "label": "REQUIRES", "to": "oksygen", "width": 1}, {"arrows": "to", "from": "ventilasjon", "label": "STARTS", "to": "sirkulasjonen", "width": 1}, {"arrows": "to", "from": "munn-til-munn", "label": "USES", "to": "ventilasjon", "width": 1}, {"arrows": "to", "from": "brystkompresjon", "label": "STARTS", "to": "sirkulasjonen", "width": 1}, {"arrows": "to", "from": "ventrikkelflimmer", "label": "CONTRAINDICATED_FOR", "to": "defibrillering", "width": 1}, {"arrows": "to", "from": "akutt hjertesykdom", "label": "REQUIRES", "to": "defibrillering", "width": 1}, {"arrows": "to", "from": "innbl\u00e5singer", "label": "RECOMMENDED_FOR", "to": "pasient", "width": 1}, {"arrows": "to", "from": "pasient", "label": "POSITIONED_ON", "to": "vann", "width": 1}, {"arrows": "to", "from": "HLR", "label": "CONTRAINDICATED_FOR", "to": "patient confirmed dead", "width": 1}, {"arrows": "to", "from": "rigor mortis", "label": "INDICATES", "to": "no resuscitation attempts", "width": 1}, {"arrows": "to", "from": "doubt about observations", "label": "REQUIRES", "to": "guidance for caller", "width": 1}, {"arrows": "to", "from": "own resources", "label": "ARRIVES", "to": "reassess situation", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,2867 @@
+[
+    [
+        "medical charcoal",
+        "should_not_be_given_in_presence_of",
+        "seizures"
+    ],
+    [
+        "early response",
+        "includes",
+        "ambulance"
+    ],
+    [
+        "drowning",
+        "is_type_of",
+        "breathing-related emergency"
+    ],
+    [
+        "children aged 1 year and older who have ingested two snus",
+        "can_be_observed",
+        "safely at home"
+    ],
+    [
+        "signs of acute somatic illness",
+        "require_switch_to",
+        "relevant protocol"
+    ],
+    [
+        "other mushrooms",
+        "can_cause",
+        "severe poisoning with larger ingestion"
+    ],
+    [
+        "rosc",
+        "requires_transport_to",
+        "hospital"
+    ],
+    [
+        "increasing restlessness or confusion",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "antidiabetic medications",
+        "include",
+        "insulin"
+    ],
+    [
+        "agonal breathing",
+        "is_characterized_by",
+        "snorking"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "dizziness"
+    ],
+    [
+        "child ingesting corrosive substances",
+        "should_be_followed_up_by",
+        "doctor or hospital"
+    ],
+    [
+        "information",
+        "is_given_under",
+        "psychiatric health care act \u00a73-6"
+    ],
+    [
+        "risk of mushroom ingestion",
+        "depends_on",
+        "amount ingested"
+    ],
+    [
+        "first aid for ingestion",
+        "includes",
+        "provide some drink"
+    ],
+    [
+        "petroleum distillates",
+        "cause_damage_via",
+        "aspiration"
+    ],
+    [
+        "panic anxiety",
+        "is_dramatic_for",
+        "surroundings"
+    ],
+    [
+        "most mushrooms",
+        "cause",
+        "little problematic symptoms when ingested"
+    ],
+    [
+        "chest compressions",
+        "continue_until",
+        "defibrillator instructs to take hands off"
+    ],
+    [
+        "cardiopulmonary resuscitation",
+        "includes_action",
+        "push down at rate 30 times"
+    ],
+    [
+        "paracetamol",
+        "has_always_toxic_dose_over",
+        "12 grams"
+    ],
+    [
+        "aspiration",
+        "has_symptom",
+        "reduced general condition"
+    ],
+    [
+        "early cpr",
+        "requires",
+        "guidance"
+    ],
+    [
+        "anesthesiologist",
+        "requires_transport_to",
+        "nearest hospital for stabilization"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "verbal threats"
+    ],
+    [
+        "normal",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "rodenticides",
+        "bind_to",
+        "activated charcoal"
+    ],
+    [
+        "crisis and coping plan",
+        "contains_information_about",
+        "desired help and treatment during acute crisis"
+    ],
+    [
+        "fainted",
+        "indicates_symptom_of",
+        "cardiac arrest"
+    ],
+    [
+        "responder",
+        "should_keep",
+        "mushroom remnants"
+    ],
+    [
+        "infant under 1 year",
+        "has_action",
+        "tell me if there is any change"
+    ],
+    [
+        "urgent",
+        "has_criteria",
+        "suspect self inflicted injury or neglect"
+    ],
+    [
+        "most plants",
+        "are",
+        "harmless when tasted"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "liver damage"
+    ],
+    [
+        "keep all packaging",
+        "requires_advice",
+        "keep packaging and show to medics or doctor"
+    ],
+    [
+        "alkali cleaners",
+        "include",
+        "drain openers"
+    ],
+    [
+        "good compressions",
+        "requires_technique",
+        "push down hard and deep with straight elbows using body weight"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_example",
+        "diesel"
+    ],
+    [
+        "child ingesting corrosive substances",
+        "should_receive",
+        "avoid vomiting"
+    ],
+    [
+        "important information to the caller",
+        "has_action",
+        "tell me immediately if anything changes"
+    ],
+    [
+        "corrosive substance ingestion",
+        "has_code",
+        "1.2.7.9.10"
+    ],
+    [
+        "sum of br\u00f8set violence checklist",
+        "determines_risk_level",
+        "very high"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_example",
+        "strong acids"
+    ],
+    [
+        "medications with high toxicity",
+        "require_treatment",
+        "rapid treatment even with few or no symptoms"
+    ],
+    [
+        "drowning",
+        "requires_action",
+        "start chest compressions as soon as possible"
+    ],
+    [
+        "child ingesting corrosive substances",
+        "should_receive",
+        "remove residues and rinse mouth"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_symptom",
+        "no cough"
+    ],
+    [
+        "report of concern",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "caller needs assistance",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "visual auditory hallucinations"
+    ],
+    [
+        "sum of br\u00f8set violence checklist",
+        "determines_risk_level",
+        "moderate"
+    ],
+    [
+        "not responding",
+        "indicates_symptom_of",
+        "cardiac arrest"
+    ],
+    [
+        "signs of acute physical illness",
+        "requires_action",
+        "switch to relevant card"
+    ],
+    [
+        "normal",
+        "has_symptom",
+        "report of concern"
+    ],
+    [
+        "assistance request",
+        "must_specify",
+        "why assistance from police is necessary"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_for",
+        "ingestion of substances that do not bind to charcoal"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_for",
+        "ingestion of table salt"
+    ],
+    [
+        "overdose",
+        "is_type_of",
+        "breathing-related emergency"
+    ],
+    [
+        "all patients",
+        "are_discharged_with",
+        "assessment regarding crisis plan"
+    ],
+    [
+        "some medications",
+        "can_cause",
+        "organ damage without prior symptoms"
+    ],
+    [
+        "psychoses",
+        "can_include",
+        "auditory hallucinations"
+    ],
+    [
+        "important information to the caller",
+        "has_action",
+        "keep phone free until medics arrive"
+    ],
+    [
+        "paracetamol",
+        "is_a",
+        "medication"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_symptom",
+        "no airway symptoms"
+    ],
+    [
+        "increasing anxiety",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "aed",
+        "provides_instruction",
+        "tell what to do"
+    ],
+    [
+        "children with symptoms",
+        "must_go_to",
+        "hospital"
+    ],
+    [
+        "information",
+        "is_about",
+        "mission"
+    ],
+    [
+        "difficulty swallowing",
+        "has_code",
+        "1.2.4.9.10"
+    ],
+    [
+        "psychiatric disease",
+        "increases_risk_for",
+        "somatic illness"
+    ],
+    [
+        "chest compressions",
+        "requires_technique",
+        "place hands in the middle of the chest with straight elbows"
+    ],
+    [
+        "paracetamol",
+        "has_toxic_dose_for",
+        "children over 6 years and adults: 150 mg/kg"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_example",
+        "petrol"
+    ],
+    [
+        "ems protocol",
+        "includes_question",
+        "does the person have a mental health crisis plan?"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "verbally threatening"
+    ],
+    [
+        "altered level of consciousness",
+        "has_action",
+        "make sure the airway is free"
+    ],
+    [
+        "poison information contact",
+        "has_url",
+        "helsbiblioteket.no/forgiftninger"
+    ],
+    [
+        "acetylsalicylic acid",
+        "requires_admission_for",
+        "observation"
+    ],
+    [
+        "nicotine solutions for e-cigarettes",
+        "can_contain",
+        "high levels of nicotine"
+    ],
+    [
+        "serious or continuing airway symptoms",
+        "has_code",
+        "1.2.4.9.10"
+    ],
+    [
+        "plant toxins",
+        "bind_to",
+        "activated charcoal"
+    ],
+    [
+        "some mushrooms",
+        "can_cause",
+        "severe poisoning"
+    ],
+    [
+        "assistance request",
+        "must_specify",
+        "why such measures are not possible or appropriate"
+    ],
+    [
+        "iron tablets",
+        "has_fatal_toxic_dose",
+        ">60 mg/kg"
+    ],
+    [
+        "crisis management plan",
+        "includes",
+        "patient's coping strategies"
+    ],
+    [
+        "agonal breathing",
+        "described_as",
+        "snorting"
+    ],
+    [
+        "symptoms of plant ingestion",
+        "can_appear",
+        "quickly or after a longer time"
+    ],
+    [
+        "chest compressions",
+        "is_recommended_to_start_as",
+        "soon as practical"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "boisterous"
+    ],
+    [
+        "battery ingestion",
+        "has_symptom",
+        "symptoms"
+    ],
+    [
+        "difficulty breathing",
+        "has_condition",
+        "if the person can\u2019t sit up"
+    ],
+    [
+        "altered level of consciousness",
+        "has_action",
+        "keep the person in a sheltered area"
+    ],
+    [
+        "first aid",
+        "includes",
+        "give drink"
+    ],
+    [
+        "psychoses",
+        "is_characterized_by",
+        "altered perception of reality"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_code",
+        "7.9"
+    ],
+    [
+        "crisis and coping plan",
+        "is_tool_for",
+        "user participation"
+    ],
+    [
+        "corrosive ingestion",
+        "requires_advice",
+        "remove anything still present"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "attacking objects"
+    ],
+    [
+        "rejection",
+        "can_lead_to",
+        "worsening of condition"
+    ],
+    [
+        "severe symptoms",
+        "include",
+        "cardiac rhythm disturbances"
+    ],
+    [
+        "patient",
+        "is_behaving_normally",
+        "yes or no"
+    ],
+    [
+        "hanging",
+        "is_type_of",
+        "breathing-related emergency"
+    ],
+    [
+        "compression rhythm",
+        "is",
+        "100-120 per minute"
+    ],
+    [
+        "child under 5",
+        "is_risk_group_for",
+        "poisoning"
+    ],
+    [
+        "patient",
+        "is_on_medication",
+        "daily medication"
+    ],
+    [
+        "ventilation",
+        "can_start",
+        "circulation"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "has_object",
+        "battery ingestion"
+    ],
+    [
+        "all patients with suspected cardiac arrest",
+        "should_receive",
+        "defibrillator as early as possible"
+    ],
+    [
+        "control questions",
+        "ensure",
+        "airways are clear"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "threat of violence"
+    ],
+    [
+        "hospital",
+        "has_capability_for",
+        "investigation and treatment of ischemic heart disease"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "increasing anxiety"
+    ],
+    [
+        "medication",
+        "requires_advice",
+        "accompany person at all times"
+    ],
+    [
+        "ingested plant",
+        "should_be_brought_to",
+        "doctor/hospital"
+    ],
+    [
+        "rapid decontamination at hospital",
+        "is_important_when",
+        "severe organ damage occurs"
+    ],
+    [
+        "unstable patient",
+        "requires_assistance_with",
+        "anesthesiologist"
+    ],
+    [
+        "urgent",
+        "has_code",
+        "7.9"
+    ],
+    [
+        "hypoglycemia",
+        "can_cause",
+        "psychosis-like conditions"
+    ],
+    [
+        "survival after drowning",
+        "depends_on",
+        "duration of brain oxygen deprivation"
+    ],
+    [
+        "normal",
+        "has_symptom",
+        "wants to talk to a doctor or others who can help"
+    ],
+    [
+        "children swallowing button cell batteries",
+        "should_undergo",
+        "x-ray or fluoroscopy quickly"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "elevated body temperature"
+    ],
+    [
+        "assistance request",
+        "must_include",
+        "planned transport method and accompanying personnel from healthcare"
+    ],
+    [
+        "serious underlying disease",
+        "is_risk_group_for",
+        "poisoning"
+    ],
+    [
+        "exposure",
+        "has_timeline",
+        "time since exposure"
+    ],
+    [
+        "other symptoms related to this page",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "control questions",
+        "are_used_to_ensure",
+        "quality of chest compressions"
+    ],
+    [
+        "doubt about observations or validity",
+        "requires",
+        "guide caller as usual until ems arrives and can reassess"
+    ],
+    [
+        "immunosuppressants",
+        "include",
+        "colchicine"
+    ],
+    [
+        "unconscious",
+        "has_code",
+        "1.2.9"
+    ],
+    [
+        "first aid for ingestion",
+        "includes",
+        "bring plant or mushroom to doctor/hospital"
+    ],
+    [
+        "first aid",
+        "includes",
+        "rinse mouth"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "press in the middle of the chest"
+    ],
+    [
+        "red response",
+        "has_code",
+        "7.8.9"
+    ],
+    [
+        "responder",
+        "should_keep",
+        "photos of ingested mushrooms"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_example",
+        "strong acids"
+    ],
+    [
+        "corrosive ingestion",
+        "requires_advice",
+        "do not provoke vomiting or retching"
+    ],
+    [
+        "assistance request",
+        "should_include",
+        "reaction patterns in such situations"
+    ],
+    [
+        "change in behaviour or mood without known mental health problem",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "risk",
+        "depends_on",
+        "age of exposed individuals"
+    ],
+    [
+        "blocked airway",
+        "requires_action",
+        "open mouth to remove object"
+    ],
+    [
+        "untrained callers in cpr",
+        "should_be_instructed_in",
+        "chest compressions only"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "increasing restlessness or confusion"
+    ],
+    [
+        "cardiac arrest",
+        "requires_advice",
+        "early defibrillation"
+    ],
+    [
+        "corrosive substance ingestion",
+        "has_example",
+        "caustic soda"
+    ],
+    [
+        "crisis plan",
+        "includes",
+        "care of minor children in crisis situations"
+    ],
+    [
+        "trained callers with cpr skills",
+        "should_be_asked",
+        "ensure chest is rising"
+    ],
+    [
+        "ems protocol",
+        "includes_instruction",
+        "check if the person has taken drugs or alcohol"
+    ],
+    [
+        "risk of plant ingestion",
+        "depends_on",
+        "amount ingested"
+    ],
+    [
+        "ambulance arrival",
+        "should_be_informed_when",
+        "agonal breathing is observed"
+    ],
+    [
+        "early response",
+        "includes",
+        "emergency helpers"
+    ],
+    [
+        "crisis management plan",
+        "is_part_of",
+        "treatment plan"
+    ],
+    [
+        "rejection",
+        "can_lead_to",
+        "risk of suicide"
+    ],
+    [
+        "cardiopulmonary resuscitation",
+        "includes_action",
+        "give rescue breaths"
+    ],
+    [
+        "alkali cleaners",
+        "include",
+        "ammonia"
+    ],
+    [
+        "paracetamol",
+        "can_cause_damage_to",
+        "liver"
+    ],
+    [
+        "yellow response",
+        "has_code",
+        "1.2.9.10"
+    ],
+    [
+        "most medications",
+        "bind_to",
+        "activated charcoal"
+    ],
+    [
+        "normal",
+        "has_symptom",
+        "other not urgent"
+    ],
+    [
+        "psychiatric disease",
+        "can_contribute_to",
+        "atypical symptom presentation of somatic illness"
+    ],
+    [
+        "early cpr",
+        "can_save",
+        "lives"
+    ],
+    [
+        "other medications",
+        "can_cause",
+        "rapid and sudden severe symptoms"
+    ],
+    [
+        "health service",
+        "has_reporting_obligation_to",
+        "child welfare"
+    ],
+    [
+        "situation",
+        "requires_action",
+        "immediate treatment to avoid serious symptoms or injury"
+    ],
+    [
+        "persons not trained in cpr",
+        "require_advice_for",
+        "chest compressions"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "hypotension"
+    ],
+    [
+        "control questions",
+        "ensure",
+        "chest rises"
+    ],
+    [
+        "mental illness",
+        "increases_risk_for",
+        "physical illness"
+    ],
+    [
+        "altered level of consciousness",
+        "has_action",
+        "keep warm with blankets or clothing over and under the person"
+    ],
+    [
+        "antiepileptics",
+        "include",
+        "carbamazepine"
+    ],
+    [
+        "patient",
+        "can_develop",
+        "severe organ damage after several days"
+    ],
+    [
+        "blocked airway",
+        "requires_action",
+        "consider giving chest compressions if ventilation is not possible"
+    ],
+    [
+        "exposure",
+        "occurred_due_to",
+        "abuse"
+    ],
+    [
+        "breathing-related emergency",
+        "requires_procedure",
+        "cardiopulmonary resuscitation"
+    ],
+    [
+        "alkali cleaners",
+        "include",
+        "terrace cleaner"
+    ],
+    [
+        "iron tablets",
+        "requires_admission_to",
+        "hospital"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "ensure airway is free"
+    ],
+    [
+        "defibrillator at hand",
+        "requires",
+        "someone else to fetch it"
+    ],
+    [
+        "crisis and coping plan",
+        "contains_information_about",
+        "patient preferences for interaction"
+    ],
+    [
+        "free airway",
+        "established_by",
+        "tilt head back with one hand on forehead and lift chin with the other hand"
+    ],
+    [
+        "panic anxiety",
+        "has_symptom",
+        "anxiety"
+    ],
+    [
+        "very restless",
+        "has_code",
+        "1.2.3.4"
+    ],
+    [
+        "children who have swallowed button cell batteries",
+        "must_undergo",
+        "x-ray examination"
+    ],
+    [
+        "pale clammy skin",
+        "requires_advice",
+        "lie the person flat on back"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "has_symptom",
+        "seizure"
+    ],
+    [
+        "antidepressants",
+        "include",
+        "venlafaxine"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_code",
+        "8.9"
+    ],
+    [
+        "instructions for early cpr",
+        "are_provided_to",
+        "all callers"
+    ],
+    [
+        "responsible healthcare personnel",
+        "must_justify_need_for",
+        "police assistance"
+    ],
+    [
+        "urgent",
+        "has_criteria",
+        "other symptoms related to this page"
+    ],
+    [
+        "button cell batteries",
+        "can_get_stuck_in",
+        "esophagus"
+    ],
+    [
+        "immediate treatment to avoid serious symptoms or injury",
+        "associated_with_response",
+        "yellow response"
+    ],
+    [
+        "chest compressions",
+        "rate",
+        "100 per minute"
+    ],
+    [
+        "return of spontaneous circulation",
+        "requires_advice",
+        "systematic intensive care treatment"
+    ],
+    [
+        "agonal breathing",
+        "is_irregular",
+        "different from normal breathing"
+    ],
+    [
+        "pregnant patient in third trimester",
+        "requires_action",
+        "place pillow under right hip to lie on left side"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "patient is on the ground"
+    ],
+    [
+        "ventilation",
+        "is_recommended_to_start",
+        "as soon as possible"
+    ],
+    [
+        "difficulty breathing",
+        "has_action",
+        "try to create calm around the person"
+    ],
+    [
+        "risk level very high",
+        "requires_action",
+        "preventive measures and management plans"
+    ],
+    [
+        "medication",
+        "must_accompany",
+        "person at all times"
+    ],
+    [
+        "normal",
+        "has_criteria",
+        "may have ingested a small amount of a toxic substance"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "gastrointestinal symptoms"
+    ],
+    [
+        "crisis management plan",
+        "focuses_on",
+        "phase to avoid crisis"
+    ],
+    [
+        "refrain from starting cpr",
+        "is_applicable_when",
+        "rigor mortis without accidental hypothermia"
+    ],
+    [
+        "wants to talk to a doctor or others who can help",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "symptom-free children who have ingested petroleum distillates",
+        "can_be_observed",
+        "at home"
+    ],
+    [
+        "assistance request",
+        "must_specify",
+        "which measures healthcare has attempted"
+    ],
+    [
+        "ingestion exceeding one day",
+        "requires_advice_from",
+        "poison information"
+    ],
+    [
+        "suspected poisoning after ingestion of blue mussels",
+        "should_contact",
+        "poison information center"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "sit on knee with one leg on each side of extended arm"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "change in behaviour or mood without known mental health problem"
+    ],
+    [
+        "psychiatric disease",
+        "requires_increased_vigilance_for",
+        "somatic illness"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "seizures"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "hyperventilation"
+    ],
+    [
+        "responsible healthcare personnel",
+        "must_provide_information_to",
+        "police"
+    ],
+    [
+        "psychoses",
+        "can_include",
+        "noticeable behavior"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_example",
+        "lye"
+    ],
+    [
+        "antidiabetic medications",
+        "include",
+        "glipizide"
+    ],
+    [
+        "emergency call",
+        "requires",
+        "direct contact with person at patient"
+    ],
+    [
+        "safety at the scene",
+        "has_action",
+        "keep out of danger"
+    ],
+    [
+        "unresponsive / convulsions",
+        "has_action",
+        "do not provoke retching or vomiting"
+    ],
+    [
+        "psychoses",
+        "can_include",
+        "delusions"
+    ],
+    [
+        "trained callers with cpr skills",
+        "should_be_asked",
+        "control questions to ensure airways are clear"
+    ],
+    [
+        "healthcare personnel",
+        "must_notify",
+        "police via phone and writing"
+    ],
+    [
+        "children aged 1 year and older who have ingested six sneiper or stumper",
+        "can_be_observed",
+        "safely at home"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "disorientation"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_given_in_presence_of",
+        "nausea and vomiting"
+    ],
+    [
+        "chest compressions",
+        "depth",
+        "5 cms"
+    ],
+    [
+        "assistance request",
+        "must_be_documented_in",
+        "police mission log"
+    ],
+    [
+        "assistance request",
+        "should_include",
+        "current risk factors"
+    ],
+    [
+        "metronome",
+        "helps",
+        "maintain compression rhythm"
+    ],
+    [
+        "unconscious adult not breathing normally",
+        "is_scenario_of",
+        "hanging"
+    ],
+    [
+        "important information to the caller",
+        "has_action",
+        "watch the person all the time"
+    ],
+    [
+        "crisis management plan",
+        "is_part_of",
+        "individual plan"
+    ],
+    [
+        "paracetamol",
+        "has_toxic_dose_for",
+        "children 3 months \u2013 6 years: 170 mg/kg per day"
+    ],
+    [
+        "assess the amount taken",
+        "associated_with_response",
+        "red response"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "use straight arms and body weight"
+    ],
+    [
+        "some plants",
+        "can_cause",
+        "severe poisoning"
+    ],
+    [
+        "active assistance",
+        "is_necessary_to",
+        "help patient get other help"
+    ],
+    [
+        "caller",
+        "should_not",
+        "hang up the phone"
+    ],
+    [
+        "corrosive substance ingestion",
+        "causes_symptom",
+        "swallowing difficulties"
+    ],
+    [
+        "exposure",
+        "occurred_due_to",
+        "self-harm"
+    ],
+    [
+        "changed mental status",
+        "is_sign_of",
+        "somatic illness"
+    ],
+    [
+        "may have ingested a small amount of a toxic substance",
+        "has_symptom",
+        "no symptoms"
+    ],
+    [
+        "national poisons info centre",
+        "requires_description",
+        "clear and concise description of the event"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "avoid pauses"
+    ],
+    [
+        "corrosive substance ingestion",
+        "has_example",
+        "drain unblocker/cleaner"
+    ],
+    [
+        "unconscious adult",
+        "has_symptom",
+        "not breathing normally"
+    ],
+    [
+        "risk of mushroom ingestion",
+        "depends_on",
+        "age of exposed person"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "has_score_maximum",
+        "6"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "nausea"
+    ],
+    [
+        "crisis management plan template",
+        "is_based_on",
+        "template developed by council for mental health"
+    ],
+    [
+        "assistance request",
+        "can_be_made",
+        "orally by phone in acute situations"
+    ],
+    [
+        "breathing-related emergency",
+        "has_symptom",
+        "unconscious adult"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_when",
+        "reduced consciousness"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "caller needs assistance"
+    ],
+    [
+        "refrain from starting cpr",
+        "is_applicable_when",
+        "incompatible injuries with life"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_example",
+        "lamp oil"
+    ],
+    [
+        "observe breathing",
+        "requires_advice",
+        "tell if there is any change"
+    ],
+    [
+        "refrain from starting cpr",
+        "is_applicable_when",
+        "death is confirmed by phone"
+    ],
+    [
+        "restless or aggressive person",
+        "requires_action",
+        "inform call handler if anything changes"
+    ],
+    [
+        "early notification",
+        "depends_on",
+        "caller knows to call 113"
+    ],
+    [
+        "overdose of paracetamol",
+        "requires_contact_with",
+        "poison information"
+    ],
+    [
+        "severe organ damage",
+        "includes",
+        "kidney damage"
+    ],
+    [
+        "severe mushroom ingestion",
+        "requires",
+        "rapid decontamination at hospital"
+    ],
+    [
+        "urgent",
+        "has_criteria",
+        "may have ingested a corrosive substance"
+    ],
+    [
+        "crisis management plan",
+        "includes",
+        "plan for who to contact in own network"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "abdominal pain"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "has_symptom",
+        "pale clammy skin"
+    ],
+    [
+        "callers",
+        "who_can_use",
+        "speaker function"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "respiratory depression"
+    ],
+    [
+        "psychoses",
+        "can_include",
+        "aggressive behavior"
+    ],
+    [
+        "normal",
+        "has_symptom",
+        "frequent caller without any new problems"
+    ],
+    [
+        "refrain from starting cpr",
+        "is_applicable_when",
+        "patient is terminally ill and does not wish to attempt resuscitation"
+    ],
+    [
+        "corrosive substance ingestion",
+        "has_example",
+        "strong acids"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_example",
+        "white spirit"
+    ],
+    [
+        "light poisoning",
+        "causes",
+        "headache"
+    ],
+    [
+        "responder",
+        "should_consider_administering",
+        "activated charcoal"
+    ],
+    [
+        "crisis management plan",
+        "is_part_of",
+        "action plans"
+    ],
+    [
+        "sum of br\u00f8set violence checklist",
+        "determines_risk_level",
+        "small"
+    ],
+    [
+        "caller",
+        "must_not_fetch",
+        "automated external defibrillator if alone"
+    ],
+    [
+        "chest compressions",
+        "can_start",
+        "circulation"
+    ],
+    [
+        "critical",
+        "has_symptom",
+        "unconscious"
+    ],
+    [
+        "caller",
+        "requires_advice",
+        "inform ambulance is on the way"
+    ],
+    [
+        "crisis and coping plan",
+        "describes",
+        "preventive measures"
+    ],
+    [
+        "aed is at hand",
+        "requires_action",
+        "fetch the defibrillator"
+    ],
+    [
+        "agonal breathing",
+        "described_as",
+        "breathing heavily"
+    ],
+    [
+        "infant under 1 year",
+        "has_action",
+        "observe breathing"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_symptom",
+        "no difficulty swallowing"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep person warm with blankets or clothing over and under"
+    ],
+    [
+        "amk / lvs",
+        "must_report_to",
+        "on-call doctor"
+    ],
+    [
+        "patients exposed to high voltage",
+        "requires_action",
+        "do not touch if still in contact with power source"
+    ],
+    [
+        "mushroom toxins",
+        "bind_to",
+        "activated charcoal"
+    ],
+    [
+        "patient",
+        "needs_medical_help_for",
+        "calming"
+    ],
+    [
+        "relatives' assessments",
+        "weigh_on",
+        "somatic disease diagnosis of mentally ill person"
+    ],
+    [
+        "exposure",
+        "occurred_due_to",
+        "accident"
+    ],
+    [
+        "ingested oil-based or petroleum product",
+        "has_symptom",
+        "no cough"
+    ],
+    [
+        "agonal breathing",
+        "is_usually",
+        "irregular"
+    ],
+    [
+        "psychoses",
+        "is_characterized_by",
+        "lack of reality"
+    ],
+    [
+        "collapsed",
+        "indicates_symptom_of",
+        "cardiac arrest"
+    ],
+    [
+        "iron tablets",
+        "has_toxic_dose",
+        ">40 mg/kg"
+    ],
+    [
+        "inquiries about poisoned child",
+        "may_involve",
+        "inflicted injury"
+    ],
+    [
+        "inquiries about poisoned child",
+        "may_involve",
+        "neglect"
+    ],
+    [
+        "organic brain diseases",
+        "can_cause",
+        "psychosis-like conditions"
+    ],
+    [
+        "agonal breathing",
+        "described_as",
+        "gasping"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_example",
+        "lye"
+    ],
+    [
+        "immunosuppressants",
+        "include",
+        "methotrexate"
+    ],
+    [
+        "assistance request",
+        "should_include",
+        "information about previous behavior"
+    ],
+    [
+        "hjertestarterregisteret",
+        "is_used_to",
+        "check location of automated external defibrillators"
+    ],
+    [
+        "medications with high toxicity",
+        "can_cause",
+        "organ damage without prior symptoms"
+    ],
+    [
+        "certain mushroom species",
+        "can_cause",
+        "severe organ damage"
+    ],
+    [
+        "may have ingested a small amount of a toxic substance",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "urgent",
+        "has_code",
+        "2.9"
+    ],
+    [
+        "crisis management plan",
+        "includes",
+        "care for children during crisis situations if patient has custody of minor children"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "heart damage"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_when",
+        "seizures"
+    ],
+    [
+        "cardiac arrest",
+        "has_criteria",
+        "unconscious"
+    ],
+    [
+        "other not urgent",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "first aid for ingestion",
+        "includes",
+        "investigate if ingesting poisonous plant or mushroom"
+    ],
+    [
+        "breathing-related emergency",
+        "has_symptom",
+        "not breathing normally"
+    ],
+    [
+        "crisis and coping plan",
+        "includes",
+        "patient coping strategies"
+    ],
+    [
+        "assistance request",
+        "must_include",
+        "patient's name and social security number or date of birth"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "extend one arm straight from body"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_for",
+        "ingestion of petroleum-based liquids"
+    ],
+    [
+        "difficulty breathing",
+        "has_action",
+        "observe breathing"
+    ],
+    [
+        "psychiatric disorders",
+        "is_rarely",
+        "acutely life-threatening"
+    ],
+    [
+        "agonal breathing",
+        "is_characterized_by",
+        "heavy breathing"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "irritable"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "count out loud to maintain correct rhythm"
+    ],
+    [
+        "corrosive ingestion",
+        "requires_advice",
+        "do not force to drink"
+    ],
+    [
+        "iron tablets ingestion > 60 mg/kg",
+        "poses_risk_for",
+        "serious poisoning"
+    ],
+    [
+        "panic anxiety",
+        "is_scary_for",
+        "patient"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep person in a sheltered area"
+    ],
+    [
+        "severe mushroom ingestion",
+        "is_symptom_of",
+        "organ damage to liver or kidneys"
+    ],
+    [
+        "early defibrillation",
+        "requires",
+        "defibrillator"
+    ],
+    [
+        "police",
+        "must_always_be_notified_via",
+        "telephone"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "has_symptom",
+        "difficulty swallowing"
+    ],
+    [
+        "alkali cleaners",
+        "include",
+        "caustic soda"
+    ],
+    [
+        "severe symptoms",
+        "include",
+        "rapid breathing"
+    ],
+    [
+        "assistance request",
+        "should_include",
+        "information about risk of patient harming others"
+    ],
+    [
+        "aggressive threatening behaviour",
+        "has_code",
+        "1.2.3.4"
+    ],
+    [
+        "blocked airway",
+        "requires_action",
+        "open mouth to remove any object"
+    ],
+    [
+        "assistance request",
+        "should_include",
+        "history related to patient's previous experience with healthcare and police"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "requires_action",
+        "assess the amount taken"
+    ],
+    [
+        "unconscious adult not breathing normally",
+        "requires_action",
+        "start cpr"
+    ],
+    [
+        "activated charcoal",
+        "should_be_administered_when",
+        "ingested amount is expected to cause symptoms"
+    ],
+    [
+        "risk of plant ingestion",
+        "depends_on",
+        "plant toxicity"
+    ],
+    [
+        "acetylsalicylic acid",
+        "has_toxic_dose",
+        ">200 mg/kg body weight"
+    ],
+    [
+        "restless or aggressive person",
+        "requires_action",
+        "try to help and calm the person"
+    ],
+    [
+        "critical",
+        "has_symptom",
+        "very restless"
+    ],
+    [
+        "unconsciousness and abnormal breathing",
+        "requires_response",
+        "early warning, early cpr, and early defibrillation"
+    ],
+    [
+        "free airway",
+        "requires_action",
+        "give 2 gentle breaths"
+    ],
+    [
+        "cardiac arrest",
+        "requires_advice",
+        "early cardiopulmonary resuscitation"
+    ],
+    [
+        "mental illness",
+        "requires_extra_vigilance_for",
+        "physical illness"
+    ],
+    [
+        "if the person can\u2019t sit up",
+        "has_action",
+        "lie the person on one side"
+    ],
+    [
+        "petroleum-based product ingestion",
+        "requires_advice",
+        "give something to drink"
+    ],
+    [
+        "severe acetylsalicylic acid poisoning",
+        "has_symptom",
+        "increased tendency to bleeding"
+    ],
+    [
+        "infant under 1 year",
+        "has_action",
+        "keep the head in a neutral position and lift the chin forwards"
+    ],
+    [
+        "cardiac arrest",
+        "has_criteria",
+        "not breathing normally"
+    ],
+    [
+        "critical",
+        "has_criterion",
+        "ingested potentially dangerous amount of toxic substance"
+    ],
+    [
+        "changed mental status",
+        "is_sign_of",
+        "physical illness"
+    ],
+    [
+        "crisis management plan",
+        "expresses",
+        "patient's plans and wishes during relapse"
+    ],
+    [
+        "person is drowning",
+        "requires_action",
+        "start giving breaths as quickly as possible"
+    ],
+    [
+        "children aged 1 year and older who have ingested two cigarettes",
+        "can_be_observed",
+        "safely at home"
+    ],
+    [
+        "petroleum-based product ingestion",
+        "requires_advice",
+        "get in touch with a doctor or hospital if symptoms occur"
+    ],
+    [
+        "agonal breathing",
+        "is_characterized_by",
+        "gasping"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_example",
+        "caustic soda"
+    ],
+    [
+        "ems protocol",
+        "includes_question",
+        "are there any children or adolescents present?"
+    ],
+    [
+        "ems protocol",
+        "includes_question",
+        "are there any animals that need to be looked after?"
+    ],
+    [
+        "police",
+        "can_be_notified_in",
+        "written form"
+    ],
+    [
+        "unconscious adult not breathing normally",
+        "is_scenario_of",
+        "other breathing-related reasons"
+    ],
+    [
+        "ventilation",
+        "is_recommended_to_start_before",
+        "patient is out of water"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "physical threats"
+    ],
+    [
+        "psychiatric disorders",
+        "is_seldom",
+        "violent"
+    ],
+    [
+        "difficulty breathing",
+        "has_action",
+        "help the person to sit up / find a comfortable position"
+    ],
+    [
+        "light poisoning",
+        "causes",
+        "agitation"
+    ],
+    [
+        "ventricular fibrillation",
+        "requires",
+        "defibrillation"
+    ],
+    [
+        "severe symptoms",
+        "include",
+        "seizures"
+    ],
+    [
+        "liver damage",
+        "has_latency",
+        "1 to 2 days"
+    ],
+    [
+        "chest compressions",
+        "requires_action",
+        "push down hard at a rate of 1 to 30"
+    ],
+    [
+        "crisis and coping plan",
+        "requires_collaboration_with",
+        "patient and relatives"
+    ],
+    [
+        "risk",
+        "depends_on",
+        "toxicity of ingested mushrooms"
+    ],
+    [
+        "drowning",
+        "requires_action",
+        "give rescue breaths quickly"
+    ],
+    [
+        "vomiting",
+        "increases_risk_of",
+        "aspiration"
+    ],
+    [
+        "child ingesting corrosive substances",
+        "should_receive",
+        "give child something to drink, max 1\u20132 dl"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "known mental health issue with several calls needing medical assistance"
+    ],
+    [
+        "strong analgesics",
+        "include",
+        "opioids"
+    ],
+    [
+        "children with respiratory symptoms after ingestion of petroleum distillates",
+        "must_go_to",
+        "hospital quickly"
+    ],
+    [
+        "risk of mushroom ingestion",
+        "depends_on",
+        "mushroom toxicity"
+    ],
+    [
+        "restless or aggressive person",
+        "requires_action",
+        "do not put yourself or others in danger"
+    ],
+    [
+        "symptoms",
+        "has_code",
+        "1.2.9.10"
+    ],
+    [
+        "button cell batteries",
+        "can_cause",
+        "serious injury"
+    ],
+    [
+        "assistance request",
+        "must_be_documented_in",
+        "patient's journal"
+    ],
+    [
+        "normal",
+        "has_symptom",
+        "feeling low and inert"
+    ],
+    [
+        "risk of plant ingestion",
+        "depends_on",
+        "age of exposed person"
+    ],
+    [
+        "patient",
+        "can_be",
+        "symptom-free early in the course"
+    ],
+    [
+        "drug influence",
+        "is_risk_group_for",
+        "poisoning"
+    ],
+    [
+        "agonal breathing",
+        "is_symptom_of",
+        "cardiac arrest"
+    ],
+    [
+        "aspiration",
+        "has_symptom",
+        "difficulty breathing"
+    ],
+    [
+        "early defibrillation",
+        "is_important_for",
+        "a quarter of patients with shockable rhythm"
+    ],
+    [
+        "severe organ damage",
+        "includes",
+        "liver damage"
+    ],
+    [
+        "pale clammy skin",
+        "has_code",
+        "1.2.6.9.10"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_symptom",
+        "no difficulty swallowing"
+    ],
+    [
+        "caller",
+        "should",
+        "put phone on speaker if possible"
+    ],
+    [
+        "fell over",
+        "indicates_symptom_of",
+        "cardiac arrest"
+    ],
+    [
+        "alkali cleaners",
+        "can_cause",
+        "severe damage to throat and esophagus"
+    ],
+    [
+        "contact with outsiders",
+        "can_cause",
+        "vulnerability to rejection"
+    ],
+    [
+        "corrosive ingestion",
+        "requires_advice",
+        "do not give activated charcoal"
+    ],
+    [
+        "early cpr",
+        "requires",
+        "encouragement"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "metabolic acidosis"
+    ],
+    [
+        "patient not competent",
+        "requires_use_of",
+        "information from relatives or others"
+    ],
+    [
+        "assistance request",
+        "must_include",
+        "patient's condition"
+    ],
+    [
+        "person is drowning",
+        "requires_action",
+        "start chest compressions as soon as practically possible"
+    ],
+    [
+        "crisis and coping plan",
+        "includes_contact_plan_for",
+        "patient's network and support system"
+    ],
+    [
+        "critical",
+        "has_symptom",
+        "aggressive threatening behaviour"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_example",
+        "drain unblocker/cleaner"
+    ],
+    [
+        "inability to break breathing pattern",
+        "can_lead_to",
+        "loss of consciousness"
+    ],
+    [
+        "digoxin",
+        "is_a",
+        "medication"
+    ],
+    [
+        "urgent",
+        "has_criterion",
+        "ingested corrosive substance"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "restlessness"
+    ],
+    [
+        "children swallowing button cell batteries",
+        "should_undergo",
+        "assessment even if symptom-free"
+    ],
+    [
+        "trained callers with cpr skills",
+        "should_be_asked",
+        "keep pauses as short as possible"
+    ],
+    [
+        "light poisoning",
+        "causes",
+        "nausea"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "has_symptom",
+        "serious or continuing airway symptoms"
+    ],
+    [
+        "alkali cleaners",
+        "include",
+        "oven cleaners"
+    ],
+    [
+        "feeling low and inert",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "focus",
+        "is_on",
+        "securing adequate help"
+    ],
+    [
+        "urgent",
+        "has_code",
+        "8.9"
+    ],
+    [
+        "providing such information",
+        "authorized_by",
+        "mental health care act \u00a7 3-6"
+    ],
+    [
+        "alcohol withdrawal",
+        "can_cause",
+        "psychosis-like conditions"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_given_in_presence_of",
+        "decreased consciousness"
+    ],
+    [
+        "mentally ill person",
+        "may_not_be_able_to",
+        "assess their own somatic disease"
+    ],
+    [
+        "if the person can\u2019t sit up",
+        "has_action",
+        "gently tilt the head back and lift the chin forwards"
+    ],
+    [
+        "early notification",
+        "depends_on",
+        "caller recognizes situation is serious"
+    ],
+    [
+        "crisis management plan",
+        "includes",
+        "desired help and treatment during acute crisis"
+    ],
+    [
+        "clozapine",
+        "is_a",
+        "medication"
+    ],
+    [
+        "patient",
+        "needs_medical_help_for",
+        "assessment of other causes of hyperventilation"
+    ],
+    [
+        "methadone",
+        "is_a_treatment_for",
+        "opioid dependence"
+    ],
+    [
+        "agonal breathing",
+        "is_different_from",
+        "normal breathing"
+    ],
+    [
+        "verbal threats",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "difficulty breathing",
+        "has_action",
+        "loosen tight clothing"
+    ],
+    [
+        "known mental health issue with several calls needing medical assistance",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "petroleum-based product ingestion",
+        "requires_advice",
+        "do not give activated charcoal"
+    ],
+    [
+        "medications with high toxicity",
+        "can_cause",
+        "rapid and sudden severe symptoms"
+    ],
+    [
+        "risk level moderate",
+        "requires_action",
+        "preventive measures"
+    ],
+    [
+        "quality of chest compressions",
+        "includes",
+        "press hard"
+    ],
+    [
+        "poisoning assessment",
+        "requires",
+        "assessment of event not only symptoms"
+    ],
+    [
+        "other symptoms related to this page",
+        "has_code",
+        "2.9"
+    ],
+    [
+        "mental illness",
+        "is_associated_with",
+        "atypical symptom presentation in physical illness"
+    ],
+    [
+        "light poisoning",
+        "causes",
+        "vomiting"
+    ],
+    [
+        "control questions",
+        "ensure",
+        "pauses are kept short"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_for",
+        "ingestion of corrosive substances"
+    ],
+    [
+        "helpline for mental health issues",
+        "allows",
+        "caller to remain anonymous"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_for",
+        "ingestion of iron preparations"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "seizures"
+    ],
+    [
+        "iron tablets",
+        "ingestion_above",
+        ">40 mg/kg requires hospital admission"
+    ],
+    [
+        "person is drowning",
+        "requires_action",
+        "lay the person on the floor on their back"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_symptom",
+        "no hoarseness"
+    ],
+    [
+        "important information to the caller",
+        "includes_instruction",
+        "inform call handler if anything changes"
+    ],
+    [
+        "risk",
+        "depends_on",
+        "amount ingested"
+    ],
+    [
+        "severe symptoms",
+        "include",
+        "respiratory arrest"
+    ],
+    [
+        "check if the person has taken drugs or alcohol",
+        "includes_question",
+        "how does the person seem now?"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_example",
+        "caustic soda"
+    ],
+    [
+        "corrosive substance ingestion",
+        "has_example",
+        "lye"
+    ],
+    [
+        "hyperventilation",
+        "can_cause",
+        "numbness around mouth"
+    ],
+    [
+        "button cell batteries",
+        "can_cause",
+        "serious damage if stuck in esophagus"
+    ],
+    [
+        "threat of violence",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "aspiration",
+        "has_symptom",
+        "coughing"
+    ],
+    [
+        "crisis and coping plan",
+        "aims_to_prevent",
+        "loss of control during crises"
+    ],
+    [
+        "crisis management plan",
+        "includes",
+        "information on how patient wishes to be met"
+    ],
+    [
+        "vulnerability to rejection",
+        "can_lead_to",
+        "worsening of condition"
+    ],
+    [
+        "critical",
+        "has_criteria",
+        "unconscious adult not breathing normally"
+    ],
+    [
+        "assistance request",
+        "should_include",
+        "information about risk of violence or other if history is unavailable or uncertainty exists"
+    ],
+    [
+        "ingested potentially dangerous amount of toxic substance",
+        "has_object",
+        "corrosive substance ingestion"
+    ],
+    [
+        "aspiration symptoms",
+        "can_occur",
+        "quickly after ingestion"
+    ],
+    [
+        "antidepressants",
+        "include",
+        "tca"
+    ],
+    [
+        "early cpr",
+        "requires",
+        "instructions"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_example",
+        "lighter fluid"
+    ],
+    [
+        "iron tablets poisoning",
+        "has_symptom",
+        "kidney damage"
+    ],
+    [
+        "frequent caller without any new problems",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "medication overdose",
+        "can_cause",
+        "psychosis-like conditions"
+    ],
+    [
+        "assistance request",
+        "must_include",
+        "information about any children and young people in the family affected by pickup, if available"
+    ],
+    [
+        "children",
+        "has_lower_tolerance_to",
+        "acetylsalicylic acid"
+    ],
+    [
+        "psychoses",
+        "can_include",
+        "visual hallucinations"
+    ],
+    [
+        "first aid",
+        "has_advice",
+        "give drink"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "tinnitus"
+    ],
+    [
+        "antidepressants",
+        "include",
+        "bupropion"
+    ],
+    [
+        "keep contact",
+        "applies_to",
+        "caller or patient until help personnel arrives"
+    ],
+    [
+        "petroleum distillates",
+        "can_cause",
+        "severe lung damage"
+    ],
+    [
+        "aspiration symptoms",
+        "can_occur_within",
+        "6 hours after ingestion"
+    ],
+    [
+        "liver damage",
+        "has_latency",
+        "1-2 days"
+    ],
+    [
+        "indifferent or major mood swings",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "panic anxiety",
+        "has_symptom",
+        "hyperventilation"
+    ],
+    [
+        "dose >= 12 grams",
+        "is_considered_as",
+        "toxic dose"
+    ],
+    [
+        "mushroom remnants or pictures",
+        "should_be_kept_for",
+        "assessment"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "confused"
+    ],
+    [
+        "urgent",
+        "has_criteria",
+        "ingested an oil-based or petroleum product"
+    ],
+    [
+        "other, not urgent",
+        "has_code",
+        "lvi"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_example",
+        "drain unblocker/cleaner"
+    ],
+    [
+        "important information to the caller",
+        "has_action",
+        "help is on the way"
+    ],
+    [
+        "automated external defibrillator",
+        "is_available_at",
+        "aed registry"
+    ],
+    [
+        "mapping contact reason and patient's situation",
+        "ensures",
+        "patient gets right help"
+    ],
+    [
+        "antidepressants",
+        "include",
+        "lithium"
+    ],
+    [
+        "exposure",
+        "involves_substance_taken_by_other",
+        "same substance taken by others present"
+    ],
+    [
+        "buprenorphine",
+        "is_a_treatment_for",
+        "opioid dependence"
+    ],
+    [
+        "calcium channel blockers",
+        "is_a_type_of",
+        "medication"
+    ],
+    [
+        "activated charcoal",
+        "should_not_be_administered_when",
+        "nausea or vomiting"
+    ],
+    [
+        "crisis and coping plan",
+        "specifies_factors_leading_to",
+        "relapse"
+    ],
+    [
+        "crisis management plan",
+        "focuses_on",
+        "phase to handle crisis"
+    ],
+    [
+        "assistance request",
+        "must_include",
+        "pickup and drop-off location"
+    ],
+    [
+        "crisis management plan",
+        "expresses",
+        "patient's plans and wishes during crisis"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "other symptoms related to this page"
+    ],
+    [
+        "poison information",
+        "provides",
+        "assessment for plant ingestion"
+    ],
+    [
+        "cardiac arrest",
+        "requires_advice",
+        "early notification"
+    ],
+    [
+        "crisis management plan",
+        "includes",
+        "plan for who to contact in support system"
+    ],
+    [
+        "safety at the scene",
+        "has_action",
+        "don\u2019t get contaminated with corrosives"
+    ],
+    [
+        "severe symptoms",
+        "include",
+        "rapid pulse"
+    ],
+    [
+        "poison information",
+        "can_assist_with",
+        "identification of mushrooms"
+    ],
+    [
+        "mushrooms",
+        "can_cause",
+        "severe poisoning even with a small bite"
+    ],
+    [
+        "callers who can use speaker function",
+        "can_receive",
+        "guidance and encouragement while performing chest compressions"
+    ],
+    [
+        "crisis management plan",
+        "focuses_on",
+        "phase to help during crisis"
+    ],
+    [
+        "first aid",
+        "has_advice",
+        "rinse mouth"
+    ],
+    [
+        "ingested an oil-based or petroleum product",
+        "has_example",
+        "paraffin"
+    ],
+    [
+        "vulnerability to rejection",
+        "can_lead_to",
+        "risk of suicide"
+    ],
+    [
+        "urgent",
+        "has_criterion",
+        "ingested oil-based or petroleum product"
+    ],
+    [
+        "dose of 150 mg/kg",
+        "applies_to",
+        "children over 6 years and adults"
+    ],
+    [
+        "patient",
+        "after_rosc_may_be",
+        "unstable"
+    ],
+    [
+        "one rescuer",
+        "can_fetch",
+        "publicly available defibrillator"
+    ],
+    [
+        "urgent",
+        "has_criterion",
+        "ingested potentially dangerous amount of toxic substance"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_symptom",
+        "no airway symptoms"
+    ],
+    [
+        "suspect self inflicted injury or neglect",
+        "has_code",
+        "2.9"
+    ],
+    [
+        "may have ingested a corrosive substance",
+        "has_code",
+        "7.9"
+    ],
+    [
+        "antimalarial drugs",
+        "include",
+        "hydroxychloroquine"
+    ],
+    [
+        "patient",
+        "needs_medical_help_for",
+        "information"
+    ],
+    [
+        "hyperventilation",
+        "can_cause",
+        "dizziness"
+    ],
+    [
+        "corrosive ingestion",
+        "requires_advice",
+        "rinse then give something to drink (max 1-2 dl)"
+    ],
+    [
+        "helpline for mental health issues",
+        "has_phone_number",
+        "116123"
+    ],
+    [
+        "unconscious adult not breathing normally",
+        "has_criteria_level",
+        "critical"
+    ],
+    [
+        "adult over 65",
+        "is_risk_group_for",
+        "poisoning"
+    ],
+    [
+        "patient",
+        "has_symptom",
+        "vomiting"
+    ],
+    [
+        "urgent",
+        "has_symptom",
+        "indifferent or major mood swings"
+    ],
+    [
+        "altered level of consciousness",
+        "has_action",
+        "lie the person on their side"
+    ],
+    [
+        "one lifesaver",
+        "can_retrieve",
+        "automated external defibrillator"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "lie the person on side"
+    ],
+    [
+        "antidiabetic medications",
+        "include",
+        "sulfonylurea"
+    ],
+    [
+        "return of spontaneous circulation",
+        "requires_advice",
+        "identify and treat coronary ischemia"
+    ],
+    [
+        "petroleum-based product ingestion",
+        "requires_advice",
+        "do not provoke vomiting or retching"
+    ],
+    [
+        "emergency call",
+        "comes_from",
+        "lvs or other operation center"
+    ],
+    [
+        "unconscious adult not breathing normally",
+        "is_scenario_of",
+        "overdose"
+    ],
+    [
+        "safety at the scene",
+        "has_action",
+        "don\u2019t get contaminated with toxic matter"
+    ],
+    [
+        "exposure",
+        "has_duration",
+        "exposure duration"
+    ],
+    [
+        "phone call",
+        "can_make",
+        "big difference"
+    ],
+    [
+        "inquiries about poisoned child",
+        "can_conceal",
+        "cases of inflicted injury or neglect"
+    ],
+    [
+        "refrain from starting cpr",
+        "is_applicable_when",
+        "beginning decomposition"
+    ],
+    [
+        "check if the person has taken drugs or alcohol",
+        "includes_instruction",
+        "if drugs or alcohol are involved, know what was taken and when"
+    ],
+    [
+        "persons trained in cpr",
+        "require_advice_for",
+        "control questions"
+    ],
+    [
+        "crisis and coping plan",
+        "describes",
+        "warning signs"
+    ],
+    [
+        "publicly available defibrillator",
+        "is_available_from",
+        "defibrillator register"
+    ],
+    [
+        "psychoses",
+        "is_accompanied_by",
+        "strong anxiety"
+    ],
+    [
+        "seizure",
+        "has_code",
+        "1.2.3.9.10"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_symptom",
+        "no hoarseness"
+    ],
+    [
+        "person is drowning",
+        "requires_action",
+        "kneel beside the person\u2019s chest"
+    ],
+    [
+        "important information to the caller",
+        "includes_instruction",
+        "keep phone free until medics arrive"
+    ],
+    [
+        "activated charcoal",
+        "should_be_administered_when",
+        "there is risk of poisoning with substances that bind to charcoal"
+    ],
+    [
+        "acetylsalicylic acid poisoning in children",
+        "has_symptom",
+        "unconsciousness"
+    ],
+    [
+        "patient not competent to consent",
+        "requires_emphasis_on",
+        "information from relatives"
+    ],
+    [
+        "refrain from reality-orienting",
+        "is_advised_for",
+        "patient with psychoses"
+    ],
+    [
+        "hyperventilation",
+        "can_cause",
+        "tingling sensations in fingers and toes"
+    ],
+    [
+        "panic anxiety",
+        "has_symptom",
+        "air hunger"
+    ],
+    [
+        "normal",
+        "has_criteria",
+        "other, not urgent"
+    ],
+    [
+        "visual auditory hallucinations",
+        "has_code",
+        "2.3.4"
+    ],
+    [
+        "important information to the caller",
+        "includes_instruction",
+        "watch the person all the time"
+    ]
+]

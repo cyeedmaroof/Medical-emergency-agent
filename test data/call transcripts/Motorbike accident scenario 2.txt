@@ -1,0 +1,90 @@
+Motorbike scenario SWLR3 - Transcription 
+Caller: I don't.
+Dispatcher: Medical Emergency dispatch center. Are you calling from the 55512345?
+Caller: Yes.
+Dispatcher: You are now connected via a video link.
+Caller: Oh, can you see the video I'm showing now?
+Dispatcher: Yes, you are connected via a video link and I can see what you are sending.
+Dispatcher: Please tell me your emergency.
+Caller: I just witnessed the motorcycle accident.
+Caller: There's a woman here who drove straight into the back of a car that had stopped on the highway.
+Caller: She was driving really fast, probably over 80.
+Caller: She flew over the car and landed at least 10 meters in front of the car.
+Caller: I think she was unconscious for a couple of minutes just after the accident, but she's mourning now.
+Caller: She didn't ask me when I spoke to her initially, I think she spoke in her leg.
+Dispatcher: Where are you now?
+Dispatcher: Do you know the address where the accident took place?
+Caller: I don't know the address, but it's on E 18 and also just outside IKEA.
+Dispatcher: OK.
+Dispatcher: Fine. We know where you are and we'll send help you to as soon as possible.
+Dispatcher: Are you together with the patient now?
+Caller: Yes, yes, she's lying on the road here.
+Dispatcher: Is she awake?
+Caller: Yeah, she's awake, but she's she's morning, and I can't really get in contact with her.
+Caller: She seems very confused.
+Dispatcher: Is she breathing normally?
+Caller: This morning I'm breathing really fast.
+Caller: Hello.
+Caller: Are you awake? What is your name?
+Caller: OK, my name is Katie.
+Dispatcher: I can hear you talking to the patient.
+Dispatcher: That's very good, she said.
+Dispatcher: Her name is Kate.
+Caller: Yes.
+Dispatcher: Fine.
+Dispatcher: The ambulance is on its way and it should be there within the next 5 to 6 minutes.
+Caller: Can you?
+Caller: Can you see the patient now?
+Dispatcher: Yes, I can. If you hold the camera a little bit closer to the patient so I can see her face and upper body better.
+Dispatcher: And that's very good.
+Dispatcher: I see she has no helmet on.
+Dispatcher: Has the helmet been removed or didn't she wear a helmet?
+Caller: Oh, she was wearing a helmet.
+Caller: But but.
+Caller: What? There was another person here who removed who removed a helmet.
+Caller: He's holding the patient's head.
+Caller: An ex table.
+Caller: Now there are two other persons here.
+Caller: They're handling the traffic and securing the area.
+Dispatcher: Very good. Is the patient able to breathe?
+Dispatcher: OK. And the positions is lying now?
+Caller: Yeah, she seems to be fine, although she's still breathing a bit fast.
+Dispatcher: Yeah, I can see she's breathing a bit fast, but it seems like she's able to breathe freely right now.
+Dispatcher: Do you think there's any risk of choking if she's kept like this?
+Caller: It's fine, Kate.
+Caller: Kate, can you hear me?
+Caller: Can you tell me your last name?
+Caller: She says her name is Kathleen.
+Caller: Can you breathe normally?
+Caller: Hur.
+Caller: So she said she can breathe.
+Caller: But that it hurts.
+Dispatcher: OK, fine.
+Dispatcher: Please just tell the person who is stabilizing the head and neck to focus on this and to keep an eye on how the patient is breathing.
+Caller: OK.
+Caller: So you should focus on stabilizing the head and neck and and keep an eye on the breathing, OK.
+Dispatcher: If there's any sign of the patient becoming unconscious to choke or to start vomiting, you must just be prepared to turn her over on her side and establish a free airway.
+Dispatcher: Do you know how to do this?
+Caller: No, I'm not quite sure to what to do if it should be necessary.
+Dispatcher: OK.
+Dispatcher: I'll talk you through it if it's needed until further. You must just keep an eye on her level of confidence. Ness and breathing, OK.
+Caller: OK.
+Dispatcher: Can you show me the rest of her body now?
+Dispatcher: You said something about a broken leg earlier in the dialogue.
+Caller: I think her white leg is broken.
+Caller: It looks like the bone is visible and there's a lot of blood on the ground.
+Dispatcher: Yes. Can you just?
+Dispatcher: Point the camera a little bit closer to the wound.
+Caller: Can you see it?
+Dispatcher: Yes, perfect.
+Dispatcher: Yes, I see it.
+Dispatcher: Very good now.
+Dispatcher: Yeah, it seems to be an open fracture and it's bleeding quite a lot.
+Dispatcher: I'd like you to to help me to stop the bleeding.
+Dispatcher: Can you try to take the sneakers and sock off?
+Dispatcher: Is there anyone there who can help you to hold the camera?
+Caller: Yeah. Can you?
+Caller: Can you hold my camera for me, please. So the emergency dispatcher can see what I'm doing. OK? Yes.
+Dispatcher: Do you have any first aid kits, bandages or dry towel that you can use to compress the sight of the bleeding?
+Caller: I have AI have a singlet.
+Caller: Can I use that?

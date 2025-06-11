@@ -1,0 +1,61 @@
+Motorbike scenario SWLR3 - Transcription 
+Caller: I don't.
+Dispatcher: Medical Emergency dispatch center. Are you calling from the 55512345?
+Caller: Yes.
+Dispatcher: You are now connected via a video link.
+Caller: Oh, can you see the video I'm showing now?
+Dispatcher: Yes, you are connected via a video link and I can see what you are sending.
+Dispatcher: Please tell me your emergency.
+Caller: I just witnessed the motorcycle accident.
+Caller: There's a woman here who drove straight into the back of a car that had stopped on the highway.
+Caller: She was driving really fast, probably over 80.
+Caller: She flew over the car and landed at least 10 meters in front of the car.
+Caller: I think she was unconscious for a couple of minutes just after the accident, but she's mourning now.
+Caller: She didn't ask me when I spoke to her initially, I think she spoke in her leg.
+Dispatcher: Where are you now?
+Dispatcher: Do you know the address where the accident took place?
+Caller: I don't know the address, but it's on E 18 and also just outside IKEA.
+Dispatcher: OK.
+Dispatcher: Fine. We know where you are and we'll send help you to as soon as possible.
+Dispatcher: Are you together with the patient now?
+Caller: Yes, yes, she's lying on the road here.
+Dispatcher: Is she awake?
+Caller: Yeah, she's awake, but she's she's morning, and I can't really get in contact with her.
+Caller: She seems very confused.
+Dispatcher: Is she breathing normally?
+Caller: This morning I'm breathing really fast.
+Caller: Hello.
+Caller: Are you awake? What is your name?
+Caller: OK, my name is Katie.
+Dispatcher: I can hear you talking to the patient.
+Dispatcher: That's very good, she said.
+Dispatcher: Her name is Kate.
+Caller: Yes.
+Dispatcher: Fine.
+Dispatcher: The ambulance is on its way and it should be there within the next 5 to 6 minutes.
+Caller: Can you?
+Caller: Can you see the patient now?
+Dispatcher: Yes, I can. If you hold the camera a little bit closer to the patient so I can see her face and upper body better.
+Dispatcher: And that's very good.
+Dispatcher: I see she has no helmet on.
+Dispatcher: Has the helmet been removed or didn't she wear a helmet?
+Caller: Oh, she was wearing a helmet.
+Caller: But but.
+Caller: What? There was another person here who removed who removed a helmet.
+Caller: He's holding the patient's head.
+Caller: An ex table.
+Caller: Now there are two other persons here.
+Caller: They're handling the traffic and securing the area.
+Dispatcher: Very good. Is the patient able to breathe?
+Dispatcher: OK. And the positions is lying now?
+Caller: Yeah, she seems to be fine, although she's still breathing a bit fast.
+Dispatcher: Yeah, I can see she's breathing a bit fast, but it seems like she's able to breathe freely right now.
+Dispatcher: Do you think there's any risk of choking if she's kept like this?
+Caller: It's fine, Kate.
+Caller: Kate, can you hear me?
+Caller: Can you tell me your last name?
+Caller: She says her name is Kathleen.
+Caller: Can you breathe normally?
+Caller: Hur.
+Caller: So she said she can breathe.
+Caller: But that it hurts.

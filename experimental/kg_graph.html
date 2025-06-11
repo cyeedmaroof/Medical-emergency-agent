@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "file_path", "label": "file_path", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "c:\\\\Users\\\\newac\\\\OneDrive\\\\Desktop\\\\Master\\\\final_structure\\\\..\\\\kgdata\\\\01.md", "label": "c:\\\\Users\\\\newac\\\\OneDrive\\\\Desktop\\\\Master\\\\final_structure\\\\..\\\\kgdata\\\\01.md", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "header_path", "label": "header_path", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "/", "label": "/", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "/01 Unconscious adult \u2013 not breathing normally/", "label": "/01 Unconscious adult \u2013 not breathing normally/", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "01 unconscious adult", "label": "01 unconscious adult", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "not breathing normally", "label": "not breathing normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "unconscious adult", "label": "unconscious adult", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "criteria", "label": "criteria", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "critical", "label": "critical", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Caller", "label": "Caller", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "CPR", "label": "CPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Speakerphone", "label": "Speakerphone", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Defibrillator", "label": "Defibrillator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Another Person", "label": "Another Person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Blocked Airway", "label": "Blocked Airway", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Remove Object", "label": "Remove Object", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pregnant Person", "label": "Pregnant Person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pillow Under Right Hip", "label": "Pillow Under Right Hip", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "01.md", "label": "01.md", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Unconscious adult \u2013 not breathing normally", "label": "Unconscious adult \u2013 not breathing normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "emergency response", "label": "emergency response", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Overdose", "label": "Overdose", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Breathing Problems", "label": "Breathing Problems", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Hanging", "label": "Hanging", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Unconscious Adult", "label": "Unconscious Adult", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Not Breathing Normally", "label": "Not Breathing Normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "BCPR", "label": "BCPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Cardio Pulmonary Resuscitation", "label": "Cardio Pulmonary Resuscitation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Rescuer", "label": "Rescuer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "f1149ff7-42b6-4161-80b8-2b8078b2e1ed", "label": "f1149ff7-42b6-4161-80b8-2b8078b2e1ed", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "272609ce-9b7c-491c-87de-7d0c74c16d8d", "label": "272609ce-9b7c-491c-87de-7d0c74c16d8d", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "69c64fe2-aab7-41b7-9691-2b0825f32ca2", "label": "69c64fe2-aab7-41b7-9691-2b0825f32ca2", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "b70bb58e-b9c9-4f4b-9a26-f61274577074", "label": "b70bb58e-b9c9-4f4b-9a26-f61274577074", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "db5bbf72-6b19-4cf4-abcd-7c430c851a12", "label": "db5bbf72-6b19-4cf4-abcd-7c430c851a12", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "file_path", "label": "REFERS_TO", "to": "c:\\\\Users\\\\newac\\\\OneDrive\\\\Desktop\\\\Master\\\\final_structure\\\\..\\\\kgdata\\\\01.md", "width": 1}, {"arrows": "to", "from": "header_path", "label": "REFERS_TO", "to": "/", "width": 1}, {"arrows": "to", "from": "header_path", "label": "REFERS_TO", "to": "/01 Unconscious adult \u2013 not breathing normally/", "width": 1}, {"arrows": "to", "from": "01 unconscious adult", "label": "DESCRIPTION", "to": "not breathing normally", "width": 1}, {"arrows": "to", "from": "unconscious adult", "label": "HAS_SYMPTOM", "to": "not breathing normally", "width": 1}, {"arrows": "to", "from": "criteria", "label": "INCLUDES", "to": "critical", "width": 1}, {"arrows": "to", "from": "critical", "label": "APPLIES_TO", "to": "unconscious adult", "width": 1}, {"arrows": "to", "from": "Caller", "label": "STARTS", "to": "CPR", "width": 1}, {"arrows": "to", "from": "Caller", "label": "PERSISTS_WITH", "to": "Speakerphone", "width": 1}, {"arrows": "to", "from": "Defibrillator", "label": "FETCHED_BY", "to": "Another Person", "width": 1}, {"arrows": "to", "from": "Blocked Airway", "label": "REQUIRES", "to": "Remove Object", "width": 1}, {"arrows": "to", "from": "Pregnant Person", "label": "POSITIONES_WITH", "to": "Pillow Under Right Hip", "width": 1}, {"arrows": "to", "from": "01.md", "label": "STORED_AT", "to": "c:\\\\Users\\\\newac\\\\OneDrive\\\\Desktop\\\\Master\\\\final_structure\\\\..\\\\kgdata\\\\01.md", "width": 1}, {"arrows": "to", "from": "Unconscious adult \u2013 not breathing normally", "label": "SECTION_OF", "to": "01.md", "width": 1}, {"arrows": "to", "from": "emergency response", "label": "COVERS", "to": "Unconscious adult \u2013 not breathing normally", "width": 1}, {"arrows": "to", "from": "Overdose", "label": "CAUSES", "to": "Breathing Problems", "width": 1}, {"arrows": "to", "from": "Hanging", "label": "CAUSES", "to": "Breathing Problems", "width": 1}, {"arrows": "to", "from": "Unconscious Adult", "label": "HAS_CONDITION", "to": "Not Breathing Normally", "width": 1}, {"arrows": "to", "from": "BCPR", "label": "FULL_FORM", "to": "Cardio Pulmonary Resuscitation", "width": 1}, {"arrows": "to", "from": "Rescuer", "label": "IS_TRAINED_IN", "to": "CPR", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

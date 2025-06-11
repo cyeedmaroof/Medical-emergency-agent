@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "unconscious_not_breathing", "label": "unconscious_not_breathing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "need for CPR", "label": "need for CPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Place heel of one hand on center of chest", "label": "Place heel of one hand on center of chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "center of chest", "label": "center of chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Place other hand on top, interlocking fingers", "label": "Place other hand on top, interlocking fingers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "heel of one hand", "label": "heel of one hand", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Keep arms straight", "label": "Keep arms straight", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "arms straight", "label": "arms straight", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Shoulders directly over hands", "label": "Shoulders directly over hands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hands", "label": "hands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Allow complete chest recoil", "label": "Allow complete chest recoil", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "complete chest recoil", "label": "complete chest recoil", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Compression rate", "label": "Compression rate", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "100-120 per minute", "label": "100-120 per minute", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Count aloud", "label": "Count aloud", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "1,2,3,...30", "label": "1,2,3,...30", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chest exposure", "label": "chest exposure", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dryness", "label": "dryness", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "electrode pads", "label": "electrode pads", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chest", "label": "chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "use on wet surfaces", "label": "use on wet surfaces", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "AED", "label": "AED", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "2a68069e-d3ae-4e24-8d7b-47457d13abd8", "label": "2a68069e-d3ae-4e24-8d7b-47457d13abd8", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "9ca7b7f7-d016-4fc7-ba29-ad06634fd070", "label": "9ca7b7f7-d016-4fc7-ba29-ad06634fd070", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "a8dc0b05-dfef-4ac9-80b5-f50fdf9ddb49", "label": "a8dc0b05-dfef-4ac9-80b5-f50fdf9ddb49", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "f6674165-df19-48f9-a147-6cec143239ae", "label": "f6674165-df19-48f9-a147-6cec143239ae", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "unconscious_not_breathing", "label": "indicates", "to": "need for CPR", "width": 1}, {"arrows": "to", "from": "Place heel of one hand on center of chest", "label": "positioned_on", "to": "center of chest", "width": 1}, {"arrows": "to", "from": "Place other hand on top, interlocking fingers", "label": "positioned_on", "to": "heel of one hand", "width": 1}, {"arrows": "to", "from": "Keep arms straight", "label": "requires", "to": "arms straight", "width": 1}, {"arrows": "to", "from": "Shoulders directly over hands", "label": "positioned_over", "to": "hands", "width": 1}, {"arrows": "to", "from": "Allow complete chest recoil", "label": "requires", "to": "complete chest recoil", "width": 1}, {"arrows": "to", "from": "Compression rate", "label": "has_value", "to": "100-120 per minute", "width": 1}, {"arrows": "to", "from": "Count aloud", "label": "indicates", "to": "1,2,3,...30", "width": 1}, {"arrows": "to", "from": "chest exposure", "label": "requires", "to": "dryness", "width": 1}, {"arrows": "to", "from": "electrode pads", "label": "positioned_on", "to": "chest", "width": 1}, {"arrows": "to", "from": "use on wet surfaces", "label": "contraindicated_for", "to": "AED", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

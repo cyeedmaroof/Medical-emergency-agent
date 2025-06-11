@@ -1,0 +1,3224 @@
+[
+    [
+        "unconscious adult not breathing normally",
+        "has_criteria",
+        "critical",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "unconscious adult not breathing normally",
+        "requires_action",
+        "start cpr",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "caller",
+        "should",
+        "do not hang up",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "caller",
+        "should",
+        "put phone on speaker",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "presence of defibrillator",
+        "requires_action",
+        "get someone else to fetch aed",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "caller alone",
+        "must_not",
+        "fetch aed",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "blocked airway",
+        "requires_action",
+        "open mouth to remove obstruction",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "children and adolescents present",
+        "requires_assessment_of",
+        "need for immediate care or support",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "all callers",
+        "should_receive",
+        "guidance",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "guidance",
+        "includes",
+        "continuous guidance and encouragement",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "caller thinks person is dead",
+        "requires",
+        "offer cpr instructions",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "person without life-incompatible major injuries",
+        "allows",
+        "offer cpr instructions",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "responder",
+        "should_show",
+        "respect to caller",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "pregnant person in third trimester",
+        "requires_action",
+        "place pillow under right hip/back to lie slightly up on left side",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "patient exposed to high-voltage electricity",
+        "requires_action",
+        "do not touch person in contact with power source",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "emergency response scenario",
+        "includes",
+        "overdose",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "emergency response scenario",
+        "includes",
+        "hanging",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "emergency response scenario",
+        "includes",
+        "breathing-related reasons",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "bcpr",
+        "is",
+        "cardiopulmonary resuscitation",
+        "aa8c119f-64e6-42c2-87fa-8600fcc54a73"
+    ],
+    [
+        "overdose",
+        "is_condition_related_to",
+        "breathing difficulties",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "hanging",
+        "is_condition_related_to",
+        "breathing difficulties",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "unconscious adult",
+        "has_symptom",
+        "not breathing normally",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "bcpr",
+        "is_procedure_for",
+        "unconscious adult not breathing normally",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "rescuer",
+        "is_trained_in",
+        "cpr",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "rescuer trained in cpr",
+        "should_perform",
+        "push down at a rate of 30 times",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "rescuer trained in cpr",
+        "should_perform",
+        "give rescue breaths",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "give rescue breaths",
+        "includes_action",
+        "tilt the head back with one hand on the forehead",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "give rescue breaths",
+        "includes_action",
+        "lift the chin up with the other hand",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "give rescue breaths",
+        "includes_action",
+        "pinch the nose and give 2 gentle rescue breaths",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "bcpr",
+        "should_continue_until",
+        "medics take over or the person wakes up",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "rescuer not trained in cpr",
+        "should_perform",
+        "push down at a rate of 30 times",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "rescuer not trained in cpr",
+        "should_continue_until",
+        "medics take over or the person wakes up",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "rescuer not trained in cpr",
+        "should_perform",
+        "count to 10 and start again if it\u2019s easier",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "bcpr",
+        "includes_action",
+        "lay the person on the floor on their back",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "bcpr",
+        "includes_action",
+        "kneel beside the person\u2019s chest",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "bcpr",
+        "includes_action",
+        "place hands in the middle of the chest and keep elbows straight",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "push down",
+        "should_be_done_with",
+        "straight elbows",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "push down",
+        "should_be_done_at_rate",
+        "1,2,3,...30",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "drowning",
+        "is_condition_related_to",
+        "breathing difficulties",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "drowning",
+        "requires_action",
+        "give breaths quickly",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "drowning",
+        "requires_action",
+        "start chest compressions as soon as possible",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "drowning",
+        "requires_action",
+        "lay the person on the floor on their back",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "drowning",
+        "requires_action",
+        "kneel beside the person\u2019s chest",
+        "048e95fa-7c8f-4f6e-99ce-c60430b4573d"
+    ],
+    [
+        "person drowning",
+        "requires_action",
+        "start giving breaths",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "start giving breaths",
+        "should_be_done_before",
+        "person is out of the water",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "person drowning",
+        "requires_action",
+        "start chest compressions",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "chest compressions",
+        "should_be_started_as",
+        "soon as practically possible",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "person drowning",
+        "requires_position",
+        "lay the person on the floor on their back",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should",
+        "kneel beside the person's chest",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should",
+        "place hands in the middle of the person's chest",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should_keep",
+        "elbows straight",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "chest compressions",
+        "should_be_performed",
+        "with straight elbows at rate 1 to 30",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should",
+        "count aloud with the person",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "cardiac arrest",
+        "requires_device",
+        "automated external defibrillator (aed)",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "defibrillator at hand",
+        "requires_action",
+        "fetch the defibrillator",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should",
+        "follow defibrillator instructions",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "chest compressions",
+        "should_continue_until",
+        "defibrillator instructs to stop",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "good compressions",
+        "require",
+        "push down hard and deep with straight elbows",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "good compressions",
+        "require",
+        "use body weight",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "chest compression depth",
+        "should_be",
+        "about 5 centimeters",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "compression rate",
+        "should_be",
+        "100 per minute",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "chest compressions",
+        "should",
+        "release completely between each compression",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should",
+        "count aloud during compressions",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should_continue",
+        "until medics take over",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "free airway",
+        "is_established_by",
+        "tilting the head back and lifting the chin",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should_check",
+        "if the chest rises when giving breaths",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "responder",
+        "should",
+        "give 2 gentle breaths",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "blocked airway",
+        "requires_action",
+        "open the mouth to remove any object",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "blocked airway",
+        "requires_action_if",
+        "cannot ventilate, consider giving chest compressions",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "cardiac arrest survival",
+        "depends_on",
+        "early notification, early cpr, and early defibrillation",
+        "3fc7926d-0557-4021-93e5-ee88a00d3d6f"
+    ],
+    [
+        "survival after cardiac arrest",
+        "requires",
+        "early notification",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "survival after cardiac arrest",
+        "requires",
+        "early cpr",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "survival after cardiac arrest",
+        "requires",
+        "early defibrillation",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "return of spontaneous circulation (rosc)",
+        "requires",
+        "systematic intensive care",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "return of spontaneous circulation (rosc)",
+        "requires",
+        "identify and treat coronary ischemia",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "early notification",
+        "requires",
+        "caller recognizes situation is serious",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "early notification",
+        "requires",
+        "caller knows to call emergency number 113",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "callers use term 'fell over'",
+        "indicates",
+        "potential cardiac arrest",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "callers use term 'collapsed'",
+        "indicates",
+        "potential cardiac arrest",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "callers use term 'fainted'",
+        "indicates",
+        "potential cardiac arrest",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "callers use term 'not reacting'",
+        "indicates",
+        "potential cardiac arrest",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "caller reports cardiac arrest",
+        "requires",
+        "ems activates notification",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "ems activating notification",
+        "ensures",
+        "cpr is performed optimally",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "caller is unsure",
+        "requires",
+        "ems guides through checking consciousness and breathing",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "uncertainty about agonal breathing",
+        "causes",
+        "delayed recognition of cardiac arrest",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "agonal breathing",
+        "is_described_as",
+        "snoring",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "agonal breathing",
+        "is_described_as",
+        "gasping",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "agonal breathing",
+        "is_described_as",
+        "breathing heavily",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "agonal breathing",
+        "is",
+        "irregular",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "agonal breathing",
+        "is",
+        "different than normal breathing",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "ems",
+        "informs_that",
+        "ambulance is on the way during guidance",
+        "61352e04-f898-499f-a874-9a7c2880e79a"
+    ],
+    [
+        "agonal breathing",
+        "has_symptom",
+        "snoring",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "agonal breathing",
+        "has_symptom",
+        "gasping",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "agonal breathing",
+        "has_symptom",
+        "heavy breathing",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "agonal breathing",
+        "has_feature",
+        "irregular breathing",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "agonal breathing",
+        "requires_action",
+        "inform that ambulance is on the way",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "early cpr",
+        "can_save",
+        "lives",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "ems",
+        "provides",
+        "instructions",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "ems",
+        "provides",
+        "guidance",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "ems",
+        "provides",
+        "encouragement",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "callers with speaker function",
+        "receive",
+        "guidance and encouragement during chest compressions",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "chest compressions",
+        "should_be_performed_at",
+        "100-120 per minute",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "metronome",
+        "aids_in",
+        "maintaining chest compression pace",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "trained cpr providers",
+        "ensure",
+        "airway is clear",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "trained cpr providers",
+        "ensure",
+        "chest rises",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "trained cpr providers",
+        "minimize",
+        "pauses in chest compressions",
+        "997e03d3-36cc-47ab-a590-489ddeff8edd"
+    ],
+    [
+        "persons not trained in cpr",
+        "requires_advice",
+        "chest compressions",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "persons trained in cpr",
+        "requires_action",
+        "perform cpr with compressions and ventilations",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "perform cpr with compressions and ventilations",
+        "requires",
+        "control questions",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "control questions",
+        "ensure",
+        "airways are clear",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "control questions",
+        "ensure",
+        "chest is rising",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "control questions",
+        "ensure",
+        "pauses are short",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "early defibrillation",
+        "is_important_for",
+        "25% of patients with shockable rhythm",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "patients with suspected cardiac arrest",
+        "should_receive",
+        "defibrillator as early as possible",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "early response",
+        "requires",
+        "ambulance",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "early response",
+        "requires",
+        "emergency helpers",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "aed",
+        "is_available_in",
+        "aed registry",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "rescuer",
+        "can_fetch",
+        "aed",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "fetching aed",
+        "should_not_compromise",
+        "cpr quality",
+        "420b436a-a745-43ea-a4bd-1a4ec4a7d9a3"
+    ],
+    [
+        "one rescuer",
+        "can_run_and_fetch",
+        "public defibrillator",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "fetching public defibrillator",
+        "should_not_compromise",
+        "cpr quality",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "patient after return of spontaneous circulation",
+        "must_reach",
+        "hospital with capability to evaluate and treat ischemic heart disease",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "unstable patients after rosc",
+        "may_require",
+        "anesthesia assistance",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "unstable patients after rosc",
+        "may_require",
+        "transport to nearest hospital for stabilization",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "survival in drowning",
+        "depends_on",
+        "duration of brain oxygen deprivation",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "ventilation and chest compressions",
+        "can_initiate",
+        "circulation",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "ventricular fibrillation in acute heart disease",
+        "requires",
+        "defibrillation",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "start of ventilation",
+        "is_recommended",
+        "as soon as possible, preferably before patient is out of water",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "start of chest compressions",
+        "is_recommended",
+        "as soon as practical",
+        "cfce68ee-6058-4769-a830-39d2fa4d8333"
+    ],
+    [
+        "patient is definitely dead",
+        "has_criteria",
+        "injuries incompatible with life",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "patient is definitely dead",
+        "has_criteria",
+        "rigor mortis without accidental hypothermia",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "patient is definitely dead",
+        "has_criteria",
+        "beginning of decomposition",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "patient is terminally ill",
+        "has_criteria",
+        "does not wish attempts to resuscitate",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "retain from starting cpr",
+        "applies_to",
+        "patient is definitely dead",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "retain from starting cpr",
+        "applies_to",
+        "patient is terminally ill and does not wish attempts to resuscitate",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "doubt about observations",
+        "requires_advice",
+        "guide caller as usual while waiting for resources to arrive",
+        "1a4b871c-b901-43ac-b2c1-afc58c25ae7e"
+    ],
+    [
+        "very restless (troubled, agitated)",
+        "has_criteria_level",
+        "critical",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "very restless (troubled, agitated)",
+        "has_code",
+        "1.2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "aggressive, threatening behaviour",
+        "has_criteria_level",
+        "critical",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "aggressive, threatening behaviour",
+        "has_code",
+        "1.2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "increasing anxiety",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "increasing anxiety",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "increasing restlessness and/or confusion",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "increasing restlessness and/or confusion",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "visual and/or auditory (hearing) hallucinations",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "visual and/or auditory (hearing) hallucinations",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "verbal threats",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "verbal threats",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "threat of violence",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "threat of violence",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "indifferent (disinterested) or major mood swings",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "indifferent (disinterested) or major mood swings",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "caller needs assistance",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "caller needs assistance",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "change in behaviour or mood, does not have a known mental health problem",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "change in behaviour or mood, does not have a known mental health problem",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "known mental health issue, several calls, probably needs medical assistance",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "known mental health issue, several calls, probably needs medical assistance",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "other symptoms related to this page",
+        "has_criteria_level",
+        "urgent",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "other symptoms related to this page",
+        "has_code",
+        "2.3.4",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "report of concern. behaving strangely, but is quiet and under control",
+        "has_criteria_level",
+        "normal",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "report of concern. behaving strangely, but is quiet and under control",
+        "has_code",
+        "lvi",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "feeling low and inert (listless)",
+        "has_criteria_level",
+        "normal",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "feeling low and inert (listless)",
+        "has_code",
+        "lvi",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "wants to talk to a doctor or others who can help",
+        "has_criteria_level",
+        "normal",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "wants to talk to a doctor or others who can help",
+        "has_code",
+        "lvi",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "frequent caller without any new problems, known mental health issue",
+        "has_criteria_level",
+        "normal",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "frequent caller without any new problems, known mental health issue",
+        "has_code",
+        "lvi",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "other, not urgent",
+        "has_criteria_level",
+        "normal",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "other, not urgent",
+        "has_code",
+        "lvi",
+        "8ae20ab1-f02c-47c9-a9fb-414b7fe11295"
+    ],
+    [
+        "caller",
+        "should_keep",
+        "phone free until medics arrive",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "caller",
+        "should_watch",
+        "person all the time",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "caller",
+        "should_notify_immediately_if",
+        "anything changes",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "medication",
+        "must_accompany",
+        "person at all times",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "caller",
+        "should_help_and_calm",
+        "restless or aggressive person",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "caller",
+        "should_not_put",
+        "self or others in danger",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "mental health helpline",
+        "has_phone_number",
+        "116123",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "caller",
+        "can_remain",
+        "anonymous when calling helpline",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "children or adolescents",
+        "need",
+        "immediate care or support",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "animals",
+        "need",
+        "looked after",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "person",
+        "has",
+        "mental health crisis plan",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "drugs or alcohol involvement",
+        "requires",
+        "knowledge of what taken and when",
+        "42b83f86-b04b-4e29-b7ea-18f350eaf91b"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "confused",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "irritable",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "boisterous",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "verbally threatening",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "physical threats",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist",
+        "includes_symptom",
+        "attacking objects",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "risk of violence",
+        "is_determined_by",
+        "br\u00f8set violence checklist score",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist score",
+        "has_value",
+        "0",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist score",
+        "has_value_range",
+        "1\u20132",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "br\u00f8set violence checklist score",
+        "has_value",
+        "greater than 2",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "risk of violence",
+        "is",
+        "small",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "risk of violence",
+        "is",
+        "moderate",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "risk of violence",
+        "is",
+        "very high",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "moderate risk of violence",
+        "requires",
+        "preventive measures",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "very high risk of violence",
+        "requires",
+        "preventive measures and management plans",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "relatives' assessments",
+        "weighs",
+        "somatic illness of mentally ill person",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "mentally ill person",
+        "may_not_be_able_to",
+        "assess somatic illness",
+        "6e79c6da-7260-4348-ae88-c71c3147cc09"
+    ],
+    [
+        "psychiatric disease",
+        "increases_risk_for",
+        "somatic disease",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "psychiatric disease",
+        "requires",
+        "extra vigilance for somatic disease",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "psychiatric disease",
+        "contributes_to",
+        "atypical symptom presentation of somatic disease",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "changed mental status",
+        "is_sign_of",
+        "somatic disease",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "signs of acute somatic disease",
+        "require",
+        "switch to relevant card",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "patient",
+        "is_not_competent_to_consent",
+        "emphasize information from relatives or others",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "is_tool_for",
+        "user participation",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "requires_cooperation_with",
+        "patient and relatives",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "specifies",
+        "factors that can lead to relapse",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "describes",
+        "known warning signs",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "describes",
+        "preventive measures to prevent loss of control during crises",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "contains_information_about",
+        "how patient wants to be met",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "contains_information_about",
+        "desired help and treatment in acute crisis",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "should_include",
+        "patient's coping strategies",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis and coping plan",
+        "should_include",
+        "plan for contacts in own network and help apparatus",
+        "f68e861b-e786-4589-b174-704265bb0fa7"
+    ],
+    [
+        "crisis coping plan",
+        "contains_information_about",
+        "how the patient wishes to be met",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "contains_information_about",
+        "desired help and treatment in an acute crisis",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "includes",
+        "patient's coping strategies",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "includes_plan_for",
+        "contacts in patient's network and help system",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "is_part_of",
+        "treatment plan",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "is_part_of",
+        "individual plan",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "is_part_of",
+        "action plans",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "is_intended_to_be",
+        "patient's plan",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "expresses",
+        "patient's plans and wishes during relapse or crisis",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan template",
+        "is_developed_by",
+        "council for mental health",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "focuses_on_phase",
+        "avoid a crisis",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "focuses_on_phase",
+        "manage a crisis",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "focuses_on_phase",
+        "help during a crisis",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis coping plan",
+        "includes",
+        "care of minor children in crisis situations",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "patient",
+        "is_discharged_with",
+        "assessment regarding crisis coping plan",
+        "0433807f-e68b-4675-87c4-2867eef40d83"
+    ],
+    [
+        "crisis plan",
+        "includes",
+        "child care in crisis situations",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "patients with custody of minor children",
+        "have",
+        "crisis plan",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "all patients",
+        "have_assessment_for",
+        "crisis plan",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "mental illness",
+        "is_rarely",
+        "acutely life-threatening",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "individuals with mental illness",
+        "are_rarely",
+        "violent",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "contacting outsiders",
+        "is_a_struggle_for",
+        "many mental illness patients",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "mental illness patients",
+        "are_vulnerable_to",
+        "rejection",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "mental illness patients",
+        "are_susceptible_to",
+        "others' judgments",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "reason for contact and patient's situation",
+        "must_be_assessed_for",
+        "providing right help",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "rejection",
+        "can_lead_to",
+        "worsening condition",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "rejection",
+        "can_lead_to",
+        "risk of suicide",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "phone call",
+        "can_make_a_difference_for",
+        "mental illness patients",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "active assistance",
+        "is_necessary_for",
+        "mental illness patients to receive other help",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "is_characterized_by",
+        "lack of reality",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "is_characterized_by",
+        "altered perception of reality",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "can_be_accompanied_by",
+        "severe anxiety",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "may_include",
+        "delusions",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "may_include",
+        "visual hallucinations",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "may_include",
+        "auditory hallucinations",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "may_include",
+        "conspicuous behavior",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "psychosis",
+        "may_include",
+        "aggressive behavior",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "drug overdose",
+        "can_cause",
+        "psychosis-like condition",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "alcohol withdrawal",
+        "can_cause",
+        "psychosis-like condition",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "hypoglycemia",
+        "can_cause",
+        "psychosis-like condition",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "organic brain diseases",
+        "can_cause",
+        "psychosis-like condition",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "keep contact until help arrives",
+        "is_advice_for",
+        "psychosis",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "obtain adequate help",
+        "is_advice_for",
+        "psychosis",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "refrain from reality-orienting",
+        "is_advice_for",
+        "psychosis",
+        "4d4a5443-e7eb-4973-83ab-8b65550c5d0f"
+    ],
+    [
+        "panic anxiety",
+        "is_characterized_by",
+        "strong anxiety",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "panic anxiety",
+        "is_characterized_by",
+        "shortness of breath",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "panic anxiety",
+        "is_characterized_by",
+        "hyperventilation",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "hyperventilation",
+        "can_cause",
+        "dizziness",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "hyperventilation",
+        "can_cause",
+        "paresthesia in fingers and toes",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "hyperventilation",
+        "can_cause",
+        "numbness around mouth",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "panic anxiety",
+        "can_lead_to",
+        "loss of consciousness",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "loss of consciousness",
+        "causes",
+        "condition to resolve itself",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "such an attack",
+        "can_be_very_frightening_for",
+        "patient",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "such an attack",
+        "can_seem_dramatic_to",
+        "others",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "patient",
+        "often_needs",
+        "medical help",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "medical help",
+        "is_needed_for",
+        "information",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "medical help",
+        "is_needed_to",
+        "calm the patient",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "medical help",
+        "is_needed_for",
+        "assessment of other causes of hyperventilation",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "mental illness",
+        "increases_risk_for",
+        "somatic disease",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "mental illness",
+        "should_lead_to",
+        "extra vigilance for somatic disease",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "mental illness",
+        "can_contribute_to",
+        "atypical symptom presentation of somatic disease",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "altered mental status",
+        "can_be",
+        "sign of somatic disease",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "signs of acute somatic disease",
+        "should_switch_to",
+        "relevant card",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "patient not competent to consent",
+        "should_use",
+        "complementary information",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "complementary information",
+        "emphasizes",
+        "information from relatives or others",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "responsible health personnel",
+        "must_justify",
+        "need for police assistance",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "responsible health personnel",
+        "must_provide",
+        "relevant and necessary information to police",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "need for police assistance",
+        "can_be_justified_under",
+        "mental health care act \u00a7 3-6",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "police",
+        "must_be_notified_by",
+        "phone",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "police",
+        "must_be_notified_by",
+        "written form",
+        "280a1eee-bb2a-4b30-b1e9-9ef6f2bbce00"
+    ],
+    [
+        "information provision",
+        "is_authorized_by",
+        "mental health care act section 3-6",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "police",
+        "must_notify_of",
+        "assistance request via phone",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "police",
+        "can_receive",
+        "assistance request in written form",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request in urgent situations",
+        "can_be_given_as",
+        "orally via phone",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request",
+        "must_be_documented_in",
+        "patient's journal",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request",
+        "must_be_documented_in",
+        "police mission log",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request",
+        "must_specify",
+        "reasons police assistance is necessary",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request",
+        "must_specify",
+        "measures attempted by health service",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request",
+        "must_specify",
+        "reasons measures are not possible or appropriate",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "assistance request",
+        "must_provide",
+        "relevant information about previous behavior",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "relevant information",
+        "includes",
+        "risk of patient harming others",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "relevant information",
+        "includes",
+        "patient's history with health services and police",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "relevant information",
+        "includes",
+        "reaction patterns in such situations",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "health personnel",
+        "lacks_access_to",
+        "patient's history",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "health personnel",
+        "is_uncertain_about",
+        "risk of violence",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "lack of access to patient's history",
+        "is_important_information_for",
+        "police",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "uncertainty about risk of violence",
+        "is_important_information_for",
+        "police",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "name and social security number",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "date of birth",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "condition",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "pick-up and delivery location",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "planned transportation method",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "accompanying personnel from health service",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "patient information",
+        "includes",
+        "information about children and young people in the family affected by pick-up",
+        "b67c15d9-0292-497c-bebd-118abb9af3e4"
+    ],
+    [
+        "unconscious",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "unconscious",
+        "has_code",
+        "1.2.9",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "may have ingested a potentially dangerous amount of a toxic substance",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "having a seizure",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "having a seizure",
+        "has_code",
+        "1.2.3.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "serious or continuing airway symptoms",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "serious or continuing airway symptoms",
+        "has_code",
+        "1.2.4.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "pale, clammy skin",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "pale, clammy skin",
+        "has_code",
+        "1.2.6.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "difficulty swallowing",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "difficulty swallowing",
+        "has_code",
+        "1.2.4.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "situation requires immediate treatment to avoid serious symptoms or injury",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "situation requires immediate treatment to avoid serious symptoms or injury",
+        "has_code",
+        "1.2.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "has swallowed a battery",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "has swallowed a battery",
+        "has_code",
+        "1.2.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "has ingested a corrosive substance causing swallowing difficulties",
+        "has_criteria",
+        "critical",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "has ingested a corrosive substance causing swallowing difficulties",
+        "has_code",
+        "1.2.7.9.10",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "may have ingested a potentially dangerous amount of a toxic substance",
+        "has_criteria",
+        "urgent",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "may have ingested a potentially dangerous amount of a toxic substance",
+        "has_code",
+        "7.8.9",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "may have ingested a corrosive substance, no airway symptoms, no hoarseness or difficulty swallowing",
+        "has_criteria",
+        "urgent",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "may have ingested a corrosive substance, no airway symptoms, no hoarseness or difficulty swallowing",
+        "has_code",
+        "7.9",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "ingested an oil-based or petroleum product, no cough",
+        "has_criteria",
+        "urgent",
+        "3b914538-57de-43f6-a493-3fc20bb1f9a0"
+    ],
+    [
+        "red response",
+        "has_code",
+        "7.8.9",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_symptom",
+        "no airway symptoms",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_symptom",
+        "no hoarseness",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_symptom",
+        "no difficulty swallowing",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested corrosive substance",
+        "has_code",
+        "7.9",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested oil-based or petroleum product",
+        "has_symptom",
+        "no cough",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested oil-based or petroleum product",
+        "has_code",
+        "8.9",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "self inflicted injury",
+        "has_code",
+        "2.9",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "neglect",
+        "has_code",
+        "2.9",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "other symptoms related to this page",
+        "has_code",
+        "2.9",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested small amount of toxic substance",
+        "has_symptom",
+        "no symptoms",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "ingested small amount of toxic substance",
+        "has_code",
+        "lvi",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "other, not urgent",
+        "has_code",
+        "lvi",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "red response",
+        "requires_advice",
+        "help is on the way",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "red response",
+        "requires_advice",
+        "keep phone free until medics arrive",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "red response",
+        "requires_advice",
+        "watch the person all the time",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "red response",
+        "requires_advice",
+        "tell me immediately if anything changes",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "safety at the scene",
+        "requires_advice",
+        "keep out of danger",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "safety at the scene",
+        "requires_advice",
+        "don\u2019t get contaminated with toxic matter",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "safety at the scene",
+        "requires_advice",
+        "don\u2019t get contaminated with corrosives",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "unresponsive or convulsions",
+        "requires_advice",
+        "do not provoke retching or vomiting",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "difficulty breathing",
+        "requires_advice",
+        "create calm around the person",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "difficulty breathing",
+        "requires_advice",
+        "loosen tight clothing",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "difficulty breathing",
+        "requires_advice",
+        "help the person sit up",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "difficulty breathing",
+        "requires_advice",
+        "find a comfortable position",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "difficulty breathing",
+        "requires_advice",
+        "observe breathing",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "cannot sit up",
+        "requires_advice",
+        "lie the person on one side",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "cannot sit up",
+        "requires_advice",
+        "gently tilt the head back",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "cannot sit up",
+        "requires_advice",
+        "lift the chin forwards",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "infant under 1 year",
+        "requires_advice",
+        "keep the head in a neutral position",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "infant under 1 year",
+        "requires_advice",
+        "lift the chin forwards",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "infant under 1 year",
+        "requires_advice",
+        "observe breathing",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "infant under 1 year",
+        "requires_advice",
+        "tell me if there is any change",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "lie the person on his/her side",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "make sure the airway is free",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep warm with blankets",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep warm with clothing",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep the person in a sheltered area",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "general",
+        "requires_advice",
+        "translate every language to english",
+        "3c0e0615-3d19-4dc8-85de-331f92c738cf"
+    ],
+    [
+        "altered level of consciousness",
+        "has_symptom",
+        "difficulty to wake",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "altered level of consciousness",
+        "has_symptom",
+        "drowsy",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "altered level of consciousness",
+        "has_symptom",
+        "sleepy",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "lie the person on their side",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "make sure the airway is free",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep warm with blankets or clothing",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "altered level of consciousness",
+        "requires_advice",
+        "keep the person in a sheltered area",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "pale clammy skin",
+        "requires_advice",
+        "lie the person flat on their back",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "corrosives in mouth or throat",
+        "requires_advice",
+        "remove anything still there",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "corrosives in mouth or throat",
+        "requires_advice",
+        "rinse then give the person something to drink (1-2 dl)",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "corrosives in mouth or throat",
+        "prohibits_action",
+        "force the person to drink",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "corrosives in mouth or throat",
+        "prohibits_action",
+        "provoke vomiting or retching",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "corrosives in mouth or throat",
+        "prohibits_action",
+        "give activated charcoal",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "requires_advice",
+        "give the person something to drink",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "prohibits_action",
+        "provoke vomiting or retching",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "prohibits_action",
+        "give activated charcoal",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "requires_advice",
+        "get in touch with a doctor or hospital if symptoms occur",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "associated_with_symptom",
+        "coughing",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "associated_with_symptom",
+        "breathing difficulties",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "associated_with_symptom",
+        "retching",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "associated_with_symptom",
+        "drowsiness",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "ingested petroleum-based product",
+        "associated_with_symptom",
+        "tiredness",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "keep all packaging",
+        "requires_advice",
+        "show to medics or doctor",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "medication",
+        "requires_advice",
+        "accompany the person at all times",
+        "7464b5ab-662c-4db3-86e6-4f8da91d1ced"
+    ],
+    [
+        "risk group",
+        "includes",
+        "adult over 65 years",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "risk group",
+        "includes",
+        "children under 5 years",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "risk group",
+        "includes",
+        "serious underlying disease",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "risk group",
+        "includes",
+        "intoxicated",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "the national poisons information centre",
+        "provides_advice_for",
+        "poisoning events",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "patient",
+        "has_symptom",
+        "vomiting",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "patient",
+        "is_on_medication",
+        "daily medication",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "exposure",
+        "has_timeline",
+        "time since exposure",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "exposure",
+        "occurred_by",
+        "accident",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "exposure",
+        "occurred_by",
+        "abuse",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "exposure",
+        "occurred_by",
+        "self-harm",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "medication",
+        "has_high_poisoning_risk",
+        "requires fast treatment even with few or no symptoms",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "some medications",
+        "can_cause",
+        "organ damage without prior symptoms",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "other medications",
+        "can_cause",
+        "rapid and severe symptoms",
+        "192b7ee1-1d8f-4e64-85f9-cd1f42b3ac7f"
+    ],
+    [
+        "some medications",
+        "can_cause",
+        "organ damage without prior symptoms",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "other medications",
+        "can_cause",
+        "rapidly and suddenly severe symptoms",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidepressants",
+        "includes_drug",
+        "tca",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidepressants",
+        "includes_drug",
+        "bupropion",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidepressants",
+        "includes_drug",
+        "lithium",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidepressants",
+        "includes_drug",
+        "venlafaxine",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidiabetics",
+        "includes_drug",
+        "insulin",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidiabetics",
+        "includes_drug",
+        "sulfonylurea",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antidiabetics",
+        "includes_drug",
+        "glipizide",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "antiepileptics",
+        "includes_drug",
+        "carbamazepine",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "buprenorphine",
+        "is_used_for",
+        "substitution treatment of opioid dependence",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "methadone",
+        "is_used_for",
+        "substitution treatment of opioid dependence",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "alkaline detergents",
+        "can_cause",
+        "severe damage in mouth and throat",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "alkaline detergents",
+        "includes_substance",
+        "caustic soda",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "alkaline detergents",
+        "includes_substance",
+        "ammonia",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "alkaline detergents",
+        "includes_substance",
+        "terrace cleaners",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "alkaline detergents",
+        "includes_substance",
+        "oven cleaners",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "alkaline detergents",
+        "includes_substance",
+        "drain openers",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "children who have swallowed corrosive substances",
+        "must_be_followed_up_by",
+        "doctor/hospital",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "button cell batteries",
+        "can_cause",
+        "severe esophageal damage",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "children who have swallowed button cell batteries",
+        "must_undergo",
+        "x-ray/imaging quickly",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "button cell batteries",
+        "can_cause",
+        "severe damage after short time if lodged in esophagus",
+        "4909e6cb-faa2-422b-942a-79294bf43582"
+    ],
+    [
+        "button cell batteries",
+        "can_cause",
+        "severe injury if lodged in the esophagus",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "children who have ingested button cell batteries",
+        "must_quickly_go_to",
+        "x-ray or radiography",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "children who have ingested button cell batteries",
+        "can_be",
+        "symptom-free",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "petroleum distillates",
+        "can_cause",
+        "severe lung damage by aspiration",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "children with respiratory symptoms after ingesting petroleum distillates",
+        "must_quickly_go_to",
+        "hospital",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "aspiration",
+        "has_symptom",
+        "cough",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "aspiration",
+        "has_symptom",
+        "breathing difficulties",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "aspiration",
+        "has_symptom",
+        "reduced general condition",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "symptoms of aspiration",
+        "can_appear",
+        "quickly after ingestion or within 6 hours",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "symptom-free children",
+        "can_be",
+        "observed at home",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "children with symptoms after ingesting petroleum distillates",
+        "must_go_to",
+        "hospital",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "vomiting",
+        "increases_risk_of",
+        "aspiration",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "ingested amount of nicotine",
+        "requires",
+        "assessment",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "nicotine solutions for e-cigarettes",
+        "can_contain",
+        "high amounts of nicotine",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "children aged 1 year and older",
+        "ingesting_up_to_one_to_two_snus,_up_to_two_cigarettes,_or_six_sneiper/stumper",
+        "can be safely observed at home",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "mild nicotine poisoning",
+        "causes",
+        "restlessness, nausea, vomiting, and headache",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "severe nicotine poisoning",
+        "causes",
+        "rapid pulse, rapid breathing, cardiac rhythm disturbances, seizures, and respiratory arrest",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "first aid for poisonings",
+        "includes",
+        "rinse mouth and give drink",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "ingestion of iron tablets greater than 40 mg/kg",
+        "requires",
+        "admission to hospital",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "patients with pronounced symptoms from iron tablet ingestion",
+        "should_be_admitted_to",
+        "hospital",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "ingestion of iron tablets greater than 60 mg/kg",
+        "poses_risk_of",
+        "severe poisoning",
+        "7b36d548-5ee1-4c67-8641-db983668c645"
+    ],
+    [
+        "first aid",
+        "requires_action",
+        "rinse mouth",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "first aid",
+        "requires_action",
+        "provide drink",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_criteria",
+        "intake greater than 40 mg/kg",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "requires_admission_to",
+        "hospital",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "poses_risk_of",
+        "severe poisoning",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_symptom",
+        "hypotension",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_symptom",
+        "metabolic acidosis",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_symptom",
+        "seizures",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_symptom",
+        "heart damage",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_symptom",
+        "liver damage",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "iron overdose",
+        "has_symptom",
+        "kidney damage",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_criteria",
+        "intake over 200 mg/kg",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "requires_admission_to",
+        "observation",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "ringing in ears",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "dizziness",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "nausea",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "stomach pain",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "elevated body temperature",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "restlessness",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "disorientation",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "hyperventilation",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "respiratory depression",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "unconsciousness",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "acetylsalicylic acid overdose",
+        "has_symptom",
+        "increased bleeding tendency",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "paracetamol overdose",
+        "can_cause",
+        "liver damage",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "paracetamol overdose",
+        "has_toxic_dose",
+        "children 3 months to 6 years: 170 mg/kg in one day",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "paracetamol overdose",
+        "has_toxic_dose",
+        "children over 6 years and adults: 150 mg/kg",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "paracetamol overdose",
+        "has_toxic_dose",
+        "dose of 12 grams or more",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "paracetamol overdose",
+        "requires_contact",
+        "poison information for risk assessment if ingestion exceeds one day",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "paracetamol overdose",
+        "has_symptom",
+        "liver damage with delay of one to two days",
+        "8ffe5f35-f355-4fac-b379-410cc89a818e"
+    ],
+    [
+        "children over 6 years and adults",
+        "has_toxic_dose",
+        "150 mg/kg",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "dose of 12 grams or more",
+        "is_considered_as",
+        "toxic",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "ingestion lasting more than one day",
+        "requires",
+        "contact poison information for risk assessment",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "symptoms of liver damage",
+        "have_latency",
+        "one to two days",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "plants",
+        "require",
+        "contact poison information for assessment",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "most plants",
+        "are",
+        "harmless to taste",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "some plants",
+        "can_cause",
+        "serious poisoning with small ingestion",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "risk of plant ingestion",
+        "depends_on",
+        "plant toxicity, amount ingested, age of exposed",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "symptoms of plant ingestion",
+        "can_appear",
+        "quickly or after some time",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "first aid",
+        "includes",
+        "give some drink",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "first aid",
+        "includes",
+        "investigate if it is a poisonous plant/mushroom",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "first aid",
+        "includes",
+        "bring plant/mushroom to doctor/hospital",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "poison information",
+        "can_assist_with",
+        "identification of mushroom",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "mushrooms",
+        "require",
+        "contact poison information for identification and assessment",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "most mushrooms",
+        "cause",
+        "little problematic symptoms upon ingestion",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "some mushrooms",
+        "can_cause",
+        "serious poisoning with very small ingestion",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "risk of mushroom ingestion",
+        "depends_on",
+        "mushroom toxicity, amount ingested, age of exposed",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "keep mushroom/remains/images",
+        "is_advised",
+        "for assessment",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "few mushroom species",
+        "can_cause",
+        "serious organ damage",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "serious organ damage",
+        "includes",
+        "liver damage",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "serious organ damage",
+        "includes",
+        "kidney damage",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "rapid decontamination at hospital",
+        "is_important_for",
+        "serious organ damage",
+        "1d18c273-6e34-4ed3-b8d7-406a6a6d61d9"
+    ],
+    [
+        "risk",
+        "depends_on",
+        "toxicity of ingested mushroom",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "risk",
+        "depends_on",
+        "quantity ingested",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "risk",
+        "depends_on",
+        "age of exposed individuals",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "some mushroom species",
+        "can_cause",
+        "severe organ damage",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "severe organ damage",
+        "affects",
+        "liver",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "severe organ damage",
+        "affects",
+        "kidneys",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "rapid decontamination at hospital",
+        "is_important_for",
+        "severe organ damage",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "patient",
+        "may_develop",
+        "severe organ damage",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "certain mushrooms",
+        "can_cause",
+        "severe poisoning",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "suspected blue mussel poisoning",
+        "requires",
+        "contacting poison information",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_be_administered_when",
+        "risk of poisoning with substances that bind to charcoal",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_be_administered_when",
+        "swallowed amount expected to cause symptoms",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "mushroom toxins",
+        "bind_to",
+        "medical charcoal",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "plant toxins",
+        "bind_to",
+        "medical charcoal",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "most medications",
+        "bind_to",
+        "medical charcoal",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "rat poison",
+        "binds_to",
+        "medical charcoal",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_when",
+        "swallowing corrosive substances",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_when",
+        "swallowing petroleum-based liquids",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_when",
+        "swallowing substances that do not bind to charcoal",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "substances that do not bind to charcoal",
+        "include",
+        "iron preparations",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "substances that do not bind to charcoal",
+        "include",
+        "table salt",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_in_presence_of",
+        "seizures",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_in_presence_of",
+        "decreased consciousness",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_in_presence_of",
+        "nausea or vomiting",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "suspicion of poisoning in children",
+        "may_hide",
+        "cases of inflicted injury",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "suspicion of poisoning in children",
+        "may_hide",
+        "cases of neglect",
+        "c3dd65ba-4775-4a3b-9f83-7db2b20a522b"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_during",
+        "seizures",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_during",
+        "impaired consciousness",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_during",
+        "nausea",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "medical charcoal",
+        "should_not_be_administered_during",
+        "vomiting",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "amk / lvs",
+        "must_report_to",
+        "on-call doctor",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "on-call doctor",
+        "can_assess_if",
+        "child abuse",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "on-call doctor",
+        "can_assess_if",
+        "child neglect",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "health services",
+        "have_duty_to_report_to",
+        "child welfare",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "health services",
+        "have_duty_to_report_in_cases_of",
+        "child abuse",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ],
+    [
+        "health services",
+        "have_duty_to_report_in_cases_of",
+        "child neglect",
+        "f63789a8-b225-4fe7-8764-c82851cbbe2d"
+    ]
+]

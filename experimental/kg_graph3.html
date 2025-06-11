@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "CPR", "label": "CPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Caller", "label": "Caller", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Person not breathing normally", "label": "Person not breathing normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Abnormal breathing", "label": "Abnormal breathing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Defibrillator", "label": "Defibrillator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Another person to fetch it", "label": "Another person to fetch it", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Blocked airway", "label": "Blocked airway", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Remove obstruction from mouth", "label": "Remove obstruction from mouth", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Guidance", "label": "Guidance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Securing airway and CPR", "label": "Securing airway and CPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Defibrillator at hand", "label": "Defibrillator at hand", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Someone else to fetch it", "label": "Someone else to fetch it", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Caller thinks person is dead", "label": "Caller thinks person is dead", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Offer CPR instructions if no major incompatible injuries", "label": "Offer CPR instructions if no major incompatible injuries", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Unconscious adult", "label": "Unconscious adult", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Emergency response", "label": "Emergency response", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Not breathing normally", "label": "Not breathing normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Unconsciousness", "label": "Unconsciousness", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Overdose", "label": "Overdose", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Hanging", "label": "Hanging", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Emergency Response", "label": "Emergency Response", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "BCPR", "label": "BCPR", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Rescuer", "label": "Rescuer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Hands", "label": "Hands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Chest", "label": "Chest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Push down", "label": "Push down", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Kneel", "label": "Kneel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Medics", "label": "Medics", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Counting aloud", "label": "Counting aloud", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "emergency response", "label": "emergency response", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "not breathing normally", "label": "not breathing normally", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "f1149ff7-42b6-4161-80b8-2b8078b2e1ed", "label": "f1149ff7-42b6-4161-80b8-2b8078b2e1ed", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "272609ce-9b7c-491c-87de-7d0c74c16d8d", "label": "272609ce-9b7c-491c-87de-7d0c74c16d8d", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "69c64fe2-aab7-41b7-9691-2b0825f32ca2", "label": "69c64fe2-aab7-41b7-9691-2b0825f32ca2", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "b70bb58e-b9c9-4f4b-9a26-f61274577074", "label": "b70bb58e-b9c9-4f4b-9a26-f61274577074", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "db5bbf72-6b19-4cf4-abcd-7c430c851a12", "label": "db5bbf72-6b19-4cf4-abcd-7c430c851a12", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ad0d2df7-e778-4ae6-95c5-12fa5fa9cae1", "label": "ad0d2df7-e778-4ae6-95c5-12fa5fa9cae1", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "1e5d42c2-e984-406e-996e-2cca4d874574", "label": "1e5d42c2-e984-406e-996e-2cca4d874574", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "0a10107c-e88b-4919-9422-18a41836b866", "label": "0a10107c-e88b-4919-9422-18a41836b866", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "104602f8-7e6b-4a3e-b6f4-5a20971ca4e0", "label": "104602f8-7e6b-4a3e-b6f4-5a20971ca4e0", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "3206f82c-137f-404a-a391-4cd45080c25c", "label": "3206f82c-137f-404a-a391-4cd45080c25c", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "CPR", "label": "performed_by", "to": "Caller", "width": 1}, {"arrows": "to", "from": "CPR", "label": "requires", "to": "Person not breathing normally", "width": 1}, {"arrows": "to", "from": "CPR", "label": "treats", "to": "Abnormal breathing", "width": 1}, {"arrows": "to", "from": "Defibrillator", "label": "requires", "to": "Another person to fetch it", "width": 1}, {"arrows": "to", "from": "Blocked airway", "label": "requires", "to": "Remove obstruction from mouth", "width": 1}, {"arrows": "to", "from": "Guidance", "label": "indicates", "to": "Securing airway and CPR", "width": 1}, {"arrows": "to", "from": "Defibrillator at hand", "label": "requires", "to": "Someone else to fetch it", "width": 1}, {"arrows": "to", "from": "Caller thinks person is dead", "label": "requires", "to": "Offer CPR instructions if no major incompatible injuries", "width": 1}, {"arrows": "to", "from": "Unconscious adult", "label": "requires", "to": "Emergency response", "width": 1}, {"arrows": "to", "from": "Emergency response", "label": "treats", "to": "Not breathing normally", "width": 1}, {"arrows": "to", "from": "Not breathing normally", "label": "indicates", "to": "Unconsciousness", "width": 1}, {"arrows": "to", "from": "Unconsciousness", "label": "causes", "to": "Abnormal breathing", "width": 1}, {"arrows": "to", "from": "Overdose", "label": "causes", "to": "Unconsciousness", "width": 1}, {"arrows": "to", "from": "Overdose", "label": "causes", "to": "Abnormal breathing", "width": 1}, {"arrows": "to", "from": "Abnormal breathing", "label": "requires", "to": "CPR", "width": 1}, {"arrows": "to", "from": "Hanging", "label": "causes", "to": "Unconsciousness", "width": 1}, {"arrows": "to", "from": "Hanging", "label": "causes", "to": "Abnormal breathing", "width": 1}, {"arrows": "to", "from": "Emergency Response", "label": "uses", "to": "BCPR", "width": 1}, {"arrows": "to", "from": "Rescuer", "label": "uses", "to": "Hands", "width": 1}, {"arrows": "to", "from": "Chest", "label": "used_by", "to": "Push down", "width": 1}, {"arrows": "to", "from": "Kneel", "label": "performed_by", "to": "Rescuer", "width": 1}, {"arrows": "to", "from": "Medics", "label": "take_over_from", "to": "Push down", "width": 1}, {"arrows": "to", "from": "Counting aloud", "label": "performed_by", "to": "Rescuer", "width": 1}, {"arrows": "to", "from": "emergency response", "label": "treats", "to": "not breathing normally", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
